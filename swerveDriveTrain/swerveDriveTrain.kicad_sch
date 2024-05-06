@@ -907,6 +907,125 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -5773,16 +5892,160 @@
 		(uuid "da3376f7-9337-47b1-a1cf-6c9fd2874f04")
 	)
 	(no_connect
+		(at 134.62 123.19)
+		(uuid "00310ac5-7309-43aa-a1e5-406ab02f4da4")
+	)
+	(no_connect
+		(at 134.62 115.57)
+		(uuid "02e10415-5efc-4541-a5fd-b32b1be82b8b")
+	)
+	(no_connect
 		(at 196.85 93.98)
 		(uuid "05d9b8ba-dab5-4abf-a782-b1efd5309dee")
+	)
+	(no_connect
+		(at 78.74 123.19)
+		(uuid "0681cb1e-17d2-40ed-a1ef-eba1a0ed052d")
+	)
+	(no_connect
+		(at 78.74 97.79)
+		(uuid "0d711f86-4657-4abe-8ea4-82db1e595b8c")
+	)
+	(no_connect
+		(at 134.62 87.63)
+		(uuid "136c8915-a8bb-425e-8b1c-8db7feedf3d6")
+	)
+	(no_connect
+		(at 134.62 82.55)
+		(uuid "139c08e5-b012-4f82-b486-f658a4455d60")
+	)
+	(no_connect
+		(at 78.74 100.33)
+		(uuid "1a6a2690-93df-4717-b4b9-57ceafdf41ed")
+	)
+	(no_connect
+		(at 78.74 125.73)
+		(uuid "20bc9898-aaa3-434a-90b6-9152309d1315")
+	)
+	(no_connect
+		(at 78.74 102.87)
+		(uuid "2369af0e-271c-4223-a699-85a8ee008f3c")
+	)
+	(no_connect
+		(at 78.74 105.41)
+		(uuid "24f55abf-a5fe-4d55-b43b-f86ee47f1512")
+	)
+	(no_connect
+		(at 78.74 133.35)
+		(uuid "26ba4ca1-5d06-45ff-8199-6049b7fd3159")
+	)
+	(no_connect
+		(at 134.62 72.39)
+		(uuid "2a0e6429-44e8-4b51-967d-611fd86d023c")
+	)
+	(no_connect
+		(at 134.62 74.93)
+		(uuid "2f9b7c22-5cc9-4bb8-b2f1-7d3d0fd95e7b")
+	)
+	(no_connect
+		(at 119.38 22.86)
+		(uuid "2fb78225-1afa-4cbb-b399-3d2746abfdf6")
+	)
+	(no_connect
+		(at 78.74 110.49)
+		(uuid "3288d1f3-298e-4c35-a5ab-dff46dd959ce")
+	)
+	(no_connect
+		(at 134.62 80.01)
+		(uuid "429591c2-f32b-4dfc-acc7-174f96b8c293")
+	)
+	(no_connect
+		(at 134.62 135.89)
+		(uuid "4856cbfd-41ec-4959-859c-67df2897552a")
+	)
+	(no_connect
+		(at 124.46 34.29)
+		(uuid "508243eb-cc7c-4252-a40b-5436375d9a46")
+	)
+	(no_connect
+		(at 78.74 115.57)
+		(uuid "5388867c-e2ca-4775-b7de-66d24e3f24a2")
+	)
+	(no_connect
+		(at 134.62 92.71)
+		(uuid "5cd099a8-be31-436a-8779-4636ff106e6a")
 	)
 	(no_connect
 		(at 196.85 96.52)
 		(uuid "6069eda3-2719-4f7f-be09-e5ffbf490973")
 	)
 	(no_connect
+		(at 134.62 69.85)
+		(uuid "6f23f4a4-d433-494f-a00b-1af70bfe5471")
+	)
+	(no_connect
+		(at 134.62 113.03)
+		(uuid "73d802fc-1851-4aba-976a-31f6c9b23c51")
+	)
+	(no_connect
+		(at 78.74 120.65)
+		(uuid "73f68142-8d35-4b5b-921d-969991ce057d")
+	)
+	(no_connect
+		(at 134.62 133.35)
+		(uuid "804bb743-699d-4436-96e1-721133814e5f")
+	)
+	(no_connect
+		(at 134.62 110.49)
+		(uuid "83d42f49-21a9-4d38-9860-89725e044619")
+	)
+	(no_connect
 		(at 190.5 26.67)
 		(uuid "8b4446ca-8530-4636-be37-10308fc13049")
+	)
+	(no_connect
+		(at 134.62 77.47)
+		(uuid "9259006d-dbe8-4fb8-942c-6013c98f8fd7")
+	)
+	(no_connect
+		(at 134.62 102.87)
+		(uuid "9d38afcd-3dea-4510-b073-7c3d11e8f76d")
+	)
+	(no_connect
+		(at 134.62 107.95)
+		(uuid "aa0bed00-1b8c-4d9c-93ff-6160082c976c")
+	)
+	(no_connect
+		(at 78.74 113.03)
+		(uuid "af00e95d-2183-4583-a1c2-17b1b99ae964")
+	)
+	(no_connect
+		(at 134.62 105.41)
+		(uuid "c1da22f5-9c31-4638-b895-0ad327ce243c")
+	)
+	(no_connect
+		(at 78.74 128.27)
+		(uuid "c2f19c40-e235-4fe4-a0ae-e1aac048d70e")
+	)
+	(no_connect
+		(at 134.62 67.31)
+		(uuid "c6b82d8e-0dcb-400b-8adf-90cf498b0c42")
+	)
+	(no_connect
+		(at 78.74 135.89)
+		(uuid "df320043-5a38-4544-8668-de80ecb70ada")
+	)
+	(no_connect
+		(at 78.74 130.81)
+		(uuid "e0e76956-9e97-4474-8de9-55940a513e15")
+	)
+	(no_connect
+		(at 134.62 95.25)
+		(uuid "e1cd1535-8798-4f98-9261-ac91737e9586")
+	)
+	(no_connect
+		(at 134.62 90.17)
+		(uuid "f7e10072-b16d-4ebb-8653-f21a68a67acf")
 	)
 	(wire
 		(pts
@@ -6944,7 +7207,7 @@
 			)
 		)
 	)
-	(global_label "S2"
+	(global_label "TXD"
 		(shape input)
 		(at 190.5 52.07 180)
 		(fields_autoplaced yes)
@@ -6956,29 +7219,7 @@
 		)
 		(uuid "42db67fd-e043-4a66-aafc-5e58c284b106")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.0958 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S4"
-		(shape input)
-		(at 262.89 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4655979b-8431-42dd-9265-1224aa772b77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.14 83.82 0)
+			(at 184.7219 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,50 +7374,6 @@
 		(uuid "524a349b-209c-4e26-9067-382c8a7d3f07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.0958 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1"
-		(shape input)
-		(at 262.89 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "539ff579-6526-46c9-af33-d0814d15d7c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.14 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S2"
-		(shape input)
-		(at 262.89 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5480da34-b438-4fb0-93d0-9f446b7b2d8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,28 +7757,6 @@
 			)
 		)
 	)
-	(global_label "S1"
-		(shape input)
-		(at 190.5 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8dff6614-578f-436f-8e79-bd67483e8820")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.0958 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENC2I"
 		(shape input)
 		(at 264.16 152.4 0)
@@ -7776,28 +7951,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S3"
-		(shape input)
-		(at 262.89 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aefe6bb1-03c5-4ac1-85f7-8462ee4f64ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.14 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8040,6 +8193,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape input)
+		(at 190.5 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "deef9cde-c211-48b9-8400-93ae31e270ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4195 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8287,6 +8462,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0777c7f9-1deb-46f7-b1e0-89c3991013e4")
+		(property "Reference" "J6"
+			(at 120.015 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 119.634 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:bird"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "796fbd88-ea38-4cc0-a934-0a65fee5cf11")
+		)
+		(instances
+			(project "swerveDriveTrain"
+				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 175.26 90)
 		(unit 1)
@@ -8296,7 +8535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089ee5b3-5709-46db-be90-d1c0eb572a9f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 154.94 175.26 0)
 			(effects
 				(font
@@ -8347,7 +8586,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8559,73 +8798,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 262.89 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c4c97e3-7eb6-476f-85ac-10481be8f211")
-		(property "Reference" "TP13"
-			(at 266.7 75.8824 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 266.7 78.4224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 267.97 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 262.89 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "523cc4f4-0684-45b4-85f6-5233940b4b43")
-		)
-		(instances
-			(project "swerveDriveTrain"
-				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 262.89 120.65 0)
 		(unit 1)
@@ -8771,7 +8943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d876ba-489d-4041-8a1e-a7b25da7db61")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 154.94 182.88 0)
 			(effects
 				(font
@@ -8822,7 +8994,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8985,73 +9157,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 262.89 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c34504e-cd76-4e2b-a4c1-bb208811285b")
-		(property "Reference" "TP14"
-			(at 266.7 80.9624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 266.7 83.5024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 267.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 262.89 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75c2caf2-d5cf-4ddc-a712-5b9abc5b4e1d")
-		)
-		(instances
-			(project "swerveDriveTrain"
-				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
 		(at 262.89 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9127,7 +9232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a12a70-6b3a-41d1-bfec-4d8751f35c30")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 140.97 85.09 0)
 			(effects
 				(font
@@ -9178,7 +9283,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9186,7 +9291,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 262.89 100.33 0)
+		(at 262.89 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9194,8 +9299,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2503bef5-1079-46f6-bcc6-d95c9882ba9e")
-		(property "Reference" "TP17"
-			(at 266.7 97.4724 0)
+		(property "Reference" "TP13"
+			(at 266.7 77.1524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9309,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 266.7 100.0124 0)
+			(at 266.7 79.6924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9318,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 267.97 100.33 0)
+			(at 267.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 100.33 0)
+			(at 267.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9336,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 262.89 100.33 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9350,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "TP17")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -9261,7 +9366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2985aff1-45b3-40e4-802f-62e39cffbce3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 190.5 76.2 0)
 			(effects
 				(font
@@ -9311,7 +9416,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9783,7 +9888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460d3235-13e3-45e5-b698-251da1b5d62f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR034"
 			(at 270.51 149.86 0)
 			(effects
 				(font
@@ -9834,7 +9939,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9842,7 +9947,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 262.89 93.98 90)
+		(at 262.89 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9850,8 +9955,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4af501b8-4bba-48d8-96e7-f1e7ba05ef31")
-		(property "Reference" "#PWR021"
-			(at 266.7 93.98 0)
+		(property "Reference" "#PWR020"
+			(at 266.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9860,7 +9965,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 259.08 93.9799 90)
+			(at 259.08 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9869,7 +9974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 93.98 0)
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9878,7 +9983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 93.98 0)
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9887,7 +9992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 262.89 93.98 0)
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,74 +10006,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 262.89 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d11ab71-dfa4-4be5-bd4c-7da0271f75bf")
-		(property "Reference" "TP11"
-			(at 266.7 65.7224 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 266.7 68.2624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 267.97 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 262.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c52521be-e8a7-42ab-99e9-db64a1c92bc6")
-		)
-		(instances
-			(project "swerveDriveTrain"
-				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "TP11")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9984,7 +10022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50349248-57e1-43bf-b691-f45380b95965")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 147.32 134.62 0)
 			(effects
 				(font
@@ -10034,7 +10072,71 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR031")
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 114.3 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52c4c866-12f0-463b-b670-e6b87ecd0b09")
+		(property "Reference" "J5"
+			(at 114.935 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 114.554 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Logo_Small"
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3b82c3f-7e82-4b13-a2d2-c56b4530d272")
+		)
+		(instances
+			(project "swerveDriveTrain"
+				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10315,7 +10417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63e2f6dc-c9bd-4570-b4dc-c343aabeb61a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR031"
 			(at 173.99 133.35 0)
 			(effects
 				(font
@@ -10365,7 +10467,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR044")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10739,7 +10841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78cae0c6-558a-4a57-b97b-271d3b47b7bc")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 148.59 123.1899 0)
 			(effects
 				(font
@@ -10793,7 +10895,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -11075,7 +11177,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a6addeb-b84c-4a4e-9076-39a01af2cdee")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 93.98 173.99 0)
 			(effects
 				(font
@@ -11126,7 +11228,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11349,96 +11451,29 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 262.89 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "954c74c2-a511-4ee8-bf8a-f84f1c218458")
-		(property "Reference" "TP16"
-			(at 271.526 91.186 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 281.94 93.472 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 262.89 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcc9be59-08ee-46a0-84dc-2f8fc2e8c94e")
-		)
-		(instances
-			(project "swerveDriveTrain"
-				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
 		(at 262.89 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97acb843-0056-4c58-9484-d26109ffed2d")
+		(uuid "954c74c2-a511-4ee8-bf8a-f84f1c218458")
 		(property "Reference" "TP12"
-			(at 266.7 70.8024 0)
+			(at 271.526 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 266.7 73.3424 0)
+			(at 281.94 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
@@ -11469,7 +11504,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4c3b73a-9683-435d-b897-d4e26cc5443c")
+			(uuid "dcc9be59-08ee-46a0-84dc-2f8fc2e8c94e")
 		)
 		(instances
 			(project "swerveDriveTrain"
@@ -11884,7 +11919,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 100.33 270)
+		(at 262.89 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11892,8 +11927,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2fc5cd4-cb43-4b33-b203-f59bdd36d580")
-		(property "Reference" "#PWR022"
-			(at 256.54 100.33 0)
+		(property "Reference" "#PWR021"
+			(at 256.54 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11902,7 +11937,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 100.3299 90)
+			(at 259.08 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11911,7 +11946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 100.33 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11920,7 +11955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 100.33 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11929,7 +11964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 100.33 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,7 +11978,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12160,7 +12195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ab1da6-fb26-43ff-b2bf-684cdd205e68")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 181.61 161.29 0)
 			(effects
 				(font
@@ -12210,7 +12245,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12293,7 +12328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae0e82e4-5612-4e8f-9ba9-13dc7bfe6662")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 15.24 172.72 0)
 			(effects
 				(font
@@ -12344,7 +12379,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12587,7 +12622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0864ccc-d9cd-4866-96d9-e510a0f36639")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 15.24 182.88 0)
 			(effects
 				(font
@@ -12638,7 +12673,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12714,7 +12749,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 262.89 88.9 0)
+		(at 262.89 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12722,8 +12757,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7859203-d4c9-46bb-8689-40a0345aabcc")
-		(property "Reference" "TP15"
-			(at 266.7 86.0424 0)
+		(property "Reference" "TP11"
+			(at 266.7 65.7224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12732,7 +12767,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 266.7 88.5824 0)
+			(at 266.7 68.2624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12741,7 +12776,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 267.97 88.9 0)
+			(at 267.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12750,7 +12785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 88.9 0)
+			(at 267.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,7 +12794,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 262.89 88.9 0)
+			(at 262.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12808,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "TP15")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12789,7 +12824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a25739-f6df-4225-b6a2-715269ccc068")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 106.68 176.5299 0)
 			(effects
 				(font
@@ -12843,7 +12878,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12997,7 +13032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce998425-829f-4aef-bb1d-6904c091b269")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR038"
 			(at 260.35 162.56 0)
 			(effects
 				(font
@@ -13048,7 +13083,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR036")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13332,7 +13367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc001af-31b1-410e-821b-ba8165e6aa0d")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR032"
 			(at 181.61 133.35 0)
 			(effects
 				(font
@@ -13382,7 +13417,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR043")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13390,7 +13425,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 262.89 88.9 90)
+		(at 262.89 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13398,8 +13433,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd1d22fb-9127-4508-9a00-93c99f89876b")
-		(property "Reference" "#PWR020"
-			(at 266.7 88.9 0)
+		(property "Reference" "#PWR018"
+			(at 266.7 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +13443,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 259.08 88.8999 90)
+			(at 259.08 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,7 +13452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 88.9 0)
+			(at 262.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 88.9 0)
+			(at 262.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +13470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 262.89 88.9 0)
+			(at 262.89 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13449,7 +13484,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13863,7 +13898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee216b1d-915d-4e50-bc4f-d06f3ac7adc3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 15.24 163.83 0)
 			(effects
 				(font
@@ -13914,7 +13949,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14432,7 +14467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd226948-44f9-43f7-8dcd-52de759e95ad")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 15.24 154.94 0)
 			(effects
 				(font
@@ -14483,7 +14518,7 @@
 		(instances
 			(project "swerveDriveTrain"
 				(path "/ffff3ec3-318d-4aa9-9cdd-5e805c5c485a"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
