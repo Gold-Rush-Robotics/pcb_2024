@@ -1,24 +1,11 @@
 {
   "board": {
     "3dviewports": [],
-    "3dviewports": [],
     "design_settings": {
-      "defaults": {},
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
-      "rules": {},
       "track_widths": [],
       "via_dimensions": []
-    },
-    "ipc2581": {
-      "dist": "",
-      "distpn": "",
-      "internal_id": "",
-      "mfg": "",
-      "mpn": ""
-    },
-    "layer_presets": [],
-    "viewports": []
     },
     "ipc2581": {
       "dist": "",
@@ -245,226 +232,11 @@
       "wire_dangling": "error"
     }
   },
-  "cvpcb": {
-    "equivalence_files": []
-  },
-  "erc": {
-    "erc_exclusions": [],
-    "meta": {
-      "version": 0
-    },
-    "pin_map": [
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        2
-      ],
-      [
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
-        0,
-        0,
-        2
-      ],
-      [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2
-      ]
-    ],
-    "rule_severities": {
-      "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
-      "bus_to_bus_conflict": "error",
-      "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
-      "different_unit_footprint": "error",
-      "different_unit_net": "error",
-      "duplicate_reference": "error",
-      "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
-      "extra_units": "error",
-      "global_label_dangling": "warning",
-      "hier_label_mismatch": "error",
-      "label_dangling": "error",
-      "lib_symbol_issues": "warning",
-      "missing_bidi_pin": "warning",
-      "missing_input_pin": "warning",
-      "missing_power_pin": "error",
-      "missing_unit": "warning",
-      "multiple_net_names": "warning",
-      "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
-      "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
-      "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
-      "unannotated": "error",
-      "unit_value_mismatch": "error",
-      "unresolved_variable": "error",
-      "wire_dangling": "error"
-    }
-  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "swerveDriveTrain.kicad_pro",
     "filename": "swerveDriveTrain.kicad_pro",
     "version": 1
   },
@@ -488,31 +260,7 @@
         "wire_width": 6
       }
     ],
-    "classes": [
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      }
-    ],
     "meta": {
-      "version": 3
-    },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
       "version": 3
     },
     "net_colors": null,
@@ -520,17 +268,6 @@
     "netclass_patterns": []
   },
   "pcbnew": {
-    "last_paths": {
-      "gencad": "",
-      "idf": "",
-      "netlist": "",
-      "plot": "",
-      "pos_files": "",
-      "specctra_dsn": "",
-      "step": "",
-      "svg": "",
-      "vrml": ""
-    },
     "last_paths": {
       "gencad": "",
       "idf": "",
@@ -616,14 +353,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -646,18 +383,6 @@
     [
       "ffff3ec3-318d-4aa9-9cdd-5e805c5c485a",
       "Root"
-    ],
-    [
-      "3518015c-1ead-4991-bef8-9055ea48f2d7",
-      "Teensy"
-    ],
-    [
-      "9acf3990-72b6-440f-bc31-2aea8bf51afa",
-      "PowerManagement"
-    ],
-    [
-      "d219fe53-2069-4758-a8c8-f575ad22b862",
-      "InputOutputPorts"
     ]
   ],
   "text_variables": {}

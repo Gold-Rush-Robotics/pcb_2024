@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "test")(type "KiCad")(uri "${KIPRJMOD}/../symbols/XT30PB.kicad_sym")(options "")(descr ""))
   (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/../symbols/teensy_library/teensy.lib")(options "")(descr ""))
   (lib (name "TCAN3414DR")(type "KiCad")(uri "${KIPRJMOD}/../symbols/TCAN3414DR.kicad_sym")(options "")(descr ""))
   (lib (name "roboclaw")(type "KiCad")(uri "${KIPRJMOD}/../symbols/roboclaw.kicad_sym")(options "")(descr ""))
