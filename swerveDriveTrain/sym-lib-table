@@ -4,4 +4,5 @@
   (lib (name "TCAN3414DR")(type "KiCad")(uri "${KIPRJMOD}/../symbols/TCAN3414DR.kicad_sym")(options "")(descr ""))
   (lib (name "roboclaw")(type "KiCad")(uri "${KIPRJMOD}/../symbols/roboclaw.kicad_sym")(options "")(descr ""))
   (lib (name "S6B-PH-K-S_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/../symbols/S6B-PH-K-S_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-05-06_00-08-00")(type "KiCad")(uri "${KIPRJMOD}/../symbols/2024-05-06_00-08-00.kicad_sym")(options "")(descr ""))
 )
