@@ -426,4 +426,15 @@
 		(remove_unused_layers no)
 		(uuid "63e52d0a-2b96-42b1-9f19-c1d21763881a")
 	)
+	(model "/Users/philip/Projects/GRR/pcb_2024/3Dmodels/RoboclawOEM.step"
+		(offset
+			(xyz 60.75 -28.5 45.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -90)
+		)
+	)
 )
