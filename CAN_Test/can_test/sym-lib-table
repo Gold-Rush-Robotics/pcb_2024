@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "teensy")(type "Legacy")(uri "/Users/philip/Projects/GRR/pcb_2024/symbols/teensy_library/teensy.lib")(options "")(descr ""))
+  (lib (name "TCAN3414DR")(type "KiCad")(uri "/Users/philip/Projects/GRR/pcb_2024/symbols/TCAN3414DR.kicad_sym")(options "")(descr ""))
+)
