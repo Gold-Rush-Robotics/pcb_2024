@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "teensy")(type "KiCad")(uri "/Users/philip/Projects/GRR/pcb_2024/footprints/teensy.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "/Users/philip/Projects/GRR/pcb_2024/footprints")(options "")(descr ""))
 )
