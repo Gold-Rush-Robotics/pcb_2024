@@ -460,7 +460,7 @@
 		(remove_unused_layers no)
 		(uuid "87fbd7f3-01d9-460e-b501-2070b7309e02")
 	)
-	(pad "5" thru_hole oval
+	(pad "6" thru_hole oval
 		(at -17.0146 21.2932)
 		(size 1.7 1.7)
 		(drill 1)
