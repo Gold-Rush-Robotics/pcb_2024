@@ -4861,7 +4861,7 @@
 		(uuid "bc020392-7f67-42de-a775-b14fdd032b1a")
 	)
 	(junction
-		(at 102.87 173.99)
+		(at 191.77 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da3376f7-9337-47b1-a1cf-6c9fd2874f04")
@@ -5052,7 +5052,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 173.99) (xy 102.87 173.99)
+			(xy 185.42 86.36) (xy 191.77 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5112,7 +5112,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 175.26) (xy 148.59 175.26)
+			(xy 246.38 87.63) (xy 237.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5122,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 177.8) (xy 115.57 177.8)
+			(xy 195.58 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5142,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 180.34) (xy 115.57 180.34)
+			(xy 195.58 92.71) (xy 204.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 173.99) (xy 106.68 177.8)
+			(xy 195.58 86.36) (xy 195.58 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5452,7 +5452,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 181.61) (xy 106.68 181.61)
+			(xy 191.77 93.98) (xy 195.58 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5462,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 173.99) (xy 106.68 173.99)
+			(xy 191.77 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5492,7 +5492,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 181.61) (xy 106.68 180.34)
+			(xy 195.58 93.98) (xy 195.58 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5590,7 @@
 	)
 	(text_box "CAN transiever will pull <250mA if using 3414 if we need any more 3.3 we should switch this over to a real reg\n"
 		(exclude_from_sim no)
-		(at 86.36 158.75 0)
+		(at 175.26 71.12 0)
 		(size 27.94 12.7)
 		(stroke
 			(width 0)
@@ -5795,7 +5795,7 @@
 	)
 	(global_label "CAN3v3"
 		(shape input)
-		(at 102.87 181.61 180)
+		(at 191.77 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5805,7 +5805,7 @@
 		)
 		(uuid "0c4fd7f7-4119-4446-8b04-d6eb4a149ced")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.8091 181.61 0)
+			(at 181.7091 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5861,7 @@
 	)
 	(global_label "CTX"
 		(shape input)
-		(at 115.57 175.26 180)
+		(at 204.47 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5871,7 +5871,7 @@
 		)
 		(uuid "0fdf646f-56d0-4aff-b5f1-d55adecab2cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.1377 175.26 0)
+			(at 198.0377 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6037,7 @@
 	)
 	(global_label "CRX"
 		(shape input)
-		(at 115.57 182.88 180)
+		(at 204.47 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6047,7 +6047,7 @@
 		)
 		(uuid "3f5ce390-d153-4b44-a407-d55809bbeac4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8353 182.88 0)
+			(at 197.7353 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6059,7 @@
 	)
 	(global_label "CANP"
 		(shape input)
-		(at 148.59 177.8 0)
+		(at 237.49 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6069,7 +6069,7 @@
 		)
 		(uuid "46e3aa08-1f46-49b3-b04b-9aa62c59f55d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.8801 177.8 0)
+			(at 244.7801 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6829,7 @@
 	)
 	(global_label "CANN"
 		(shape input)
-		(at 148.59 180.34 0)
+		(at 237.49 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6839,7 +6839,7 @@
 		)
 		(uuid "cc9de493-f873-4b90-8a2b-c23536a48b52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.9406 180.34 0)
+			(at 244.8406 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 175.26 0)
+		(at 246.38 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7344,7 +7344,7 @@
 		(fields_autoplaced yes)
 		(uuid "089ee5b3-5709-46db-be90-d1c0eb572a9f")
 		(property "Reference" "#PWR042"
-			(at 157.48 181.61 0)
+			(at 246.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +7353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 176.5299 0)
+			(at 248.92 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +7362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 175.26 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +7371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 175.26 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 175.26 0)
+			(at 246.38 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +7469,7 @@
 	)
 	(symbol
 		(lib_id "TCAN3414DR:TCAN3414DR")
-		(at 115.57 175.26 0)
+		(at 204.47 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7478,7 +7478,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bf7fe4c-5b7a-4907-9d57-1e8250525a6a")
 		(property "Reference" "IC1"
-			(at 132.08 167.64 0)
+			(at 220.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +7486,7 @@
 			)
 		)
 		(property "Value" "TCAN3414DR"
-			(at 132.08 170.18 0)
+			(at 220.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7494,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SOIC127P600X175-8N"
-			(at 144.78 270.18 0)
+			(at 233.68 182.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7504,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan3414.pdf?ts=1713723144569&ref_url=https%253A%252F%252Fwww.mouser.ch%252F"
-			(at 144.78 370.18 0)
+			(at 233.68 282.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7514,7 +7514,7 @@
 			)
 		)
 		(property "Description" "3.3-V CAN FD transceiver with shut-down and standby mode"
-			(at 115.57 175.26 0)
+			(at 204.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,7 +7523,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 144.78 570.18 0)
+			(at 233.68 482.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7533,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TCAN3414DR"
-			(at 144.78 670.18 0)
+			(at 233.68 582.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7543,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TCAN3414DR?qs=mELouGlnn3egF2AojRJddw%3D%3D"
-			(at 144.78 770.18 0)
+			(at 233.68 682.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7553,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 144.78 870.18 0)
+			(at 233.68 782.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +7563,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TCAN3414DR"
-			(at 144.78 970.18 0)
+			(at 233.68 882.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 182.88 0)
+		(at 237.49 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7686,7 +7686,7 @@
 		(fields_autoplaced yes)
 		(uuid "14d876ba-489d-4041-8a1e-a7b25da7db61")
 		(property "Reference" "#PWR044"
-			(at 148.59 189.23 0)
+			(at 237.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 184.1499 0)
+			(at 240.03 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 182.88 0)
+			(at 237.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,7 +7713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 182.88 0)
+			(at 237.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +7722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 182.88 0)
+			(at 237.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +9726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 173.99 0)
+		(at 185.42 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9734,7 +9734,7 @@
 		(dnp no)
 		(uuid "8a6addeb-b84c-4a4e-9076-39a01af2cdee")
 		(property "Reference" "#PWR041"
-			(at 96.52 180.34 0)
+			(at 185.42 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 177.8 0)
+			(at 185.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +9752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 173.99 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +9761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 173.99 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9770,7 +9770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 173.99 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11209,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 102.87 177.8 0)
+		(at 191.77 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11218,7 +11218,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9a25739-f6df-4225-b6a2-715269ccc068")
 		(property "Reference" "C4"
-			(at 106.68 176.5299 0)
+			(at 195.58 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,7 +11227,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 106.68 179.0699 0)
+			(at 195.58 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,7 +11236,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 103.8352 181.61 0)
+			(at 192.7352 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,7 +11245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 177.8 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11254,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 102.87 177.8 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
