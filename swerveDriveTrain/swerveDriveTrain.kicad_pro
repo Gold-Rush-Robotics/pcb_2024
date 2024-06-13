@@ -53,10 +53,8 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "silk_over_copper|192853063|136392117|e82d5648-5850-4627-a4dc-20c2ad820fe5|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|193644896|137763617|e82d5648-5850-4627-a4dc-20c2ad820fe5|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|201435104|137763617|528ac2d1-c8cf-4121-9077-cb1c824003dc|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|201828158|139037869|528ac2d1-c8cf-4121-9077-cb1c824003dc|00000000-0000-0000-0000-000000000000"
+        "silk_overlap|241360000|73660000|8a885f0a-2344-464a-8e12-1a1e5c5fc345|91ecf48a-a2f5-4aa7-82d8-71b96a4a9c39",
+        "silk_overlap|241360000|73660000|8a885f0a-2344-464a-8e12-1a1e5c5fc345|b05a5618-cd22-48f2-81b5-5fe4ac76c82d"
       ],
       "meta": {
         "version": 2
@@ -96,7 +94,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
