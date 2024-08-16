@@ -4190,9 +4190,9 @@
 		)
 		(uuid bf273ade-78f3-4f57-af65-f8f5a168d907)
 	)
-	(text "Look more into this\ncapacitor value\n1/2πrc"
+	(text "Look more into this\ncapacitor value\n1/2πrc\ni calculated 663pF\nusing smaller because\nnot common val"
 		(exclude_from_sim no)
-		(at 72.39 104.902 0)
+		(at 71.12 110.998 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4310,7 +4310,7 @@
 	)
 	(text "Reset pin may change later"
 		(exclude_from_sim no)
-		(at 189.23 102.616 0)
+		(at 192.024 102.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5446,7 +5446,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0359e7a7-aae6-488b-9144-565fff671076")
 		(property "Reference" "C16"
 			(at 83.947 84.4549 0)
@@ -5457,7 +5457,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270pF"
+		(property "Value" "560pF"
 			(at 84.201 88.8999 0)
 			(effects
 				(font
@@ -7283,7 +7283,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "492d93fc-cae5-4902-b340-0e2384b79267")
 		(property "Reference" "R3"
 			(at 75.438 80.7719 90)
@@ -9287,7 +9287,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ad8cec4a-b34a-4c1f-9354-829860642c76")
 		(property "Reference" "R24"
 			(at 75.438 88.3919 90)

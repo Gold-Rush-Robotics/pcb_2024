@@ -5919,7 +5919,7 @@
 		(path "/bb7cdc9a-56be-4d98-b438-561aac97a030/492d93fc-cae5-4902-b340-0e2384b79267")
 		(sheetname "Data Stuff")
 		(sheetfile "page2.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
@@ -7458,7 +7458,7 @@
 				)
 			)
 		)
-		(property "Value" "270pF"
+		(property "Value" "560pF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7513,7 +7513,7 @@
 		(path "/bb7cdc9a-56be-4d98-b438-561aac97a030/0359e7a7-aae6-488b-9144-565fff671076")
 		(sheetname "Data Stuff")
 		(sheetfile "page2.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
 			(end 0.261252 -0.735)
@@ -18560,7 +18560,7 @@
 		(path "/bb7cdc9a-56be-4d98-b438-561aac97a030/ad8cec4a-b34a-4c1f-9354-829860642c76")
 		(sheetname "Data Stuff")
 		(sheetfile "page2.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
 			(end 0.227064 -0.735)
