@@ -5,10 +5,11 @@
 	(uuid "328cb06f-140f-44cf-870b-d4cae964fab0")
 	(paper "A4")
 	(title_block
-		(title "Main Board 2024")
+		(title "Main Board 2024-2025")
 		(rev "1.1")
 		(company "GRR")
 		(comment 1 "Currently WIP")
+		(comment 2 "Please check CAN capacitor value")
 	)
 	(lib_symbols
 		(symbol "Connector:RJ45"
@@ -4189,9 +4190,9 @@
 		)
 		(uuid bf273ade-78f3-4f57-af65-f8f5a168d907)
 	)
-	(text "Look more into this"
+	(text "Look more into this\ncapacitor value\n1/2πrc"
 		(exclude_from_sim no)
-		(at 71.628 101.092 0)
+		(at 72.39 104.902 0)
 		(effects
 			(font
 				(size 2.54 2.54)

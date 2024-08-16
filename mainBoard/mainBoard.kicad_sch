@@ -5,7 +5,7 @@
 	(uuid "c4a17c19-34f8-41cd-9019-636b61180dc7")
 	(paper "A4")
 	(title_block
-		(title "Main Board 2024")
+		(title "Main Board 2024-2025")
 		(rev "1.1")
 		(company "GRR")
 		(comment 1 "Currently WIP")
@@ -2225,10 +2225,10 @@
 		(uuid "aef42ba1-b95c-452d-8340-02a319db8c1d")
 	)
 	(junction
-		(at 120.65 45.72)
+		(at 120.65 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e187257c-2854-4a85-bdf3-af7c6569bb49")
+		(uuid "d7c05c14-10ad-4e03-b4c7-1a786113f85f")
 	)
 	(junction
 		(at 133.35 60.96)
@@ -2506,6 +2506,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 41.91) (xy 120.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3946d581-3ea5-44b2-97af-d01f79eeb7cd")
+	)
+	(wire
+		(pts
 			(xy 160.02 62.23) (xy 160.02 60.96)
 		)
 		(stroke
@@ -2666,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 45.72) (xy 120.65 53.34)
+			(xy 120.65 43.18) (xy 120.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3076,16 +3086,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 43.18) (xy 129.54 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa5c56a4-f408-4a4e-84bb-521da6b8983b")
-	)
-	(wire
-		(pts
 			(xy 204.47 102.87) (xy 200.66 102.87)
 		)
 		(stroke
@@ -3246,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 45.72) (xy 125.73 45.72)
+			(xy 120.65 43.18) (xy 129.54 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3426,16 +3426,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 44.45) (xy 120.65 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e78cf0af-0e5d-4e9c-9f36-b8b1d16b2b76")
-	)
-	(wire
-		(pts
 			(xy 120.65 53.34) (xy 128.27 53.34)
 		)
 		(stroke
@@ -3516,16 +3506,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 45.72) (xy 125.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66c9a89-ba7f-478d-9a41-98572dc0f394")
-	)
-	(wire
-		(pts
 			(xy 208.28 67.31) (xy 208.28 66.04)
 		)
 		(stroke
@@ -3565,8 +3545,8 @@
 		(uuid "fbcce5b6-816f-4307-a3bf-064b47d8d759")
 	)
 	(rectangle
-		(start 116.84 38.1)
-		(end 259.08 78.74)
+		(start 116.84 36.83)
+		(end 259.08 77.47)
 		(stroke
 			(width 0)
 			(type default)
@@ -3648,7 +3628,7 @@
 	)
 	(text "12V to 5V, 3A"
 		(exclude_from_sim no)
-		(at 186.182 36.83 0)
+		(at 186.182 35.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3717,6 +3697,16 @@
 			)
 		)
 		(uuid "d818ec9e-6aa5-406b-a192-2c6aba2c330e")
+	)
+	(text "Note: Current draw of ALL LEDs should be 20ma.\nUse this in calculating resistor values"
+		(exclude_from_sim no)
+		(at 209.296 24.892 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "df4910d2-f30f-461e-8400-f81c6e4cea9c")
 	)
 	(text "Note: EN floating to turn on as soon as it gets power"
 		(exclude_from_sim no)
@@ -8803,7 +8793,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 120.65 44.45 0)
+		(at 120.65 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8811,7 +8801,7 @@
 		(dnp no)
 		(uuid "dc88786e-f2b2-455a-b490-d69643874a4b")
 		(property "Reference" "#PWR014"
-			(at 120.65 48.26 0)
+			(at 120.65 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +8810,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 120.65 40.64 0)
+			(at 120.65 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,7 +8818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 44.45 0)
+			(at 120.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,7 +8827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 44.45 0)
+			(at 120.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +8836,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 120.65 44.45 0)
+			(at 120.65 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
