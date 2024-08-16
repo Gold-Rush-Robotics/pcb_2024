@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "c4a17c19-34f8-41cd-9019-636b61180dc7")
 	(paper "A4")
+	(title_block
+		(title "Main Board 2024")
+		(rev "1.1")
+		(company "GRR")
+		(comment 1 "Currently WIP")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack"
 			(pin_names
@@ -3630,16 +3636,6 @@
 		)
 		(uuid e6db555b-26a2-4214-b58d-547a2814e1ac)
 	)
-	(text "1.1"
-		(exclude_from_sim no)
-		(at 269.748 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "00b7d136-8e36-4bdc-aa0e-3301409b3683")
-	)
 	(text "12V Battery In/Out"
 		(exclude_from_sim no)
 		(at 44.196 40.64 0)
@@ -3659,16 +3655,6 @@
 			)
 		)
 		(uuid "065b33e7-7930-4f88-ab04-4eb6d6810a5f")
-	)
-	(text "Main Board"
-		(exclude_from_sim no)
-		(at 192.024 189.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1be99785-3847-43af-8480-0450f46ba022")
 	)
 	(text "Jetson Power"
 		(exclude_from_sim no)
@@ -3741,16 +3727,6 @@
 			)
 		)
 		(uuid "edc2d6e2-4f80-46b5-a32f-f06d20b12d2f")
-	)
-	(text "Summer 2024"
-		(exclude_from_sim no)
-		(at 212.852 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fd5d5b39-dc8e-4d8d-8feb-ef33c7516536")
 	)
 	(text "Note: EN floating to turn on as soon as it gets power"
 		(exclude_from_sim no)

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "328cb06f-140f-44cf-870b-d4cae964fab0")
 	(paper "A4")
+	(title_block
+		(title "Main Board 2024")
+		(rev "1.1")
+		(company "GRR")
+		(comment 1 "Currently WIP")
+	)
 	(lib_symbols
 		(symbol "Connector:RJ45"
 			(pin_names
@@ -4215,16 +4221,6 @@
 		)
 		(uuid "24d6ee56-7000-450c-9e01-059fbd4580ef")
 	)
-	(text "Main Board"
-		(exclude_from_sim no)
-		(at 191.77 189.738 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4b95d2ad-8077-425a-a72e-c80288abf167")
-	)
 	(text "CAN Transciever"
 		(exclude_from_sim no)
 		(at 45.974 66.04 0)
@@ -4288,26 +4284,6 @@
 			)
 		)
 		(uuid "a147696f-a45d-430a-bde5-ca83f5e3944a")
-	)
-	(text "Summer 2024"
-		(exclude_from_sim no)
-		(at 212.598 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aad99833-7408-4ef2-ac86-6ebf5fb07afd")
-	)
-	(text "1.1"
-		(exclude_from_sim no)
-		(at 269.494 193.548 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bde75ec7-e545-488e-88fa-903ef0d290c3")
 	)
 	(text "PLEASE UNDERSTAND\nTHESE ARE NOT ETHERNET\nDO NOT PLUG INTO JETSON"
 		(exclude_from_sim no)
