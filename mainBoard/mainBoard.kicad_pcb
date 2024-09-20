@@ -196,7 +196,7 @@
 	(footprint "Connector_BarrelJack:BarrelJack_Kycon_KLDX-0202-xC_Horizontal"
 		(layer "F.Cu")
 		(uuid "0576e265-2f9e-4d1e-859d-0291b9eddd1d")
-		(at 72.875 31.895 -90)
+		(at 72.875 30.095 -90)
 		(descr "DC Barrel Jack 2mm or 2.5mm center pin, https://www.kycon.com/Pub_Eng_Draw/KLDX-0202-AC%20&%20BC.pdf")
 		(tags "power jack 2mm 2.5mm KLDX-0202-BC KLDX-0202-AC")
 		(property "Reference" "J5"
