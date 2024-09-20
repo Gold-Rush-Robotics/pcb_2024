@@ -1300,7 +1300,7 @@
 			(pintype "passive")
 			(uuid "9bbbc875-7c50-49bc-b87e-f7810a201359")
 		)
-		(model "${KIPRJMOD}/packages3D/XT60PW-M.STEP"
+		(model "${KIPRJMOD}/packages3D/XT60PW-M.step"
 			(offset
 				(xyz 3.5 6 0)
 			)
@@ -1832,7 +1832,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "cdd817fe-d5fd-4e51-9722-65c6208dc3a7")
 		)
-		(model "${KIPRJMOD}/packages3D/V_QWIIC.STEP"
+		(model "${KIPRJMOD}/packages3D/V_QWIIC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3756,7 +3756,7 @@
 			(pintype "passive")
 			(uuid "229404de-6403-4c2c-b1e0-0f568828e528")
 		)
-		(model "${KIPRJMOD}/packages3D/XT30PW-M.STEP"
+		(model "${KIPRJMOD}/packages3D/XT30PW-M.step"
 			(offset
 				(xyz -2.5 10 0)
 			)
@@ -4899,7 +4899,7 @@
 			(pintype "passive")
 			(uuid "4776d9ca-3743-4cdc-a2d3-bc2e57a50de2")
 		)
-		(model "${KIPRJMOD}/packages3D/XT30PW-M.STEP"
+		(model "${KIPRJMOD}/packages3D/XT30PW-M.step"
 			(offset
 				(xyz -2.5 10 0)
 			)
@@ -15379,7 +15379,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "532edbca-fbc2-4a2b-8992-ab8b1354bcaa")
 		)
-		(model "${KIPRJMOD}/packages3D/V_QWIIC.STEP"
+		(model "${KIPRJMOD}/packages3D/V_QWIIC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15911,7 +15911,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "c1a2164c-5519-41a3-8b75-b54d163bd39c")
 		)
-		(model "${KIPRJMOD}/packages3D/V_QWIIC.STEP"
+		(model "${KIPRJMOD}/packages3D/V_QWIIC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17085,7 +17085,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "6b5c5ac1-d2cd-4550-8adc-2acdb1ad73b4")
 		)
-		(model "${KIPRJMOD}/packages3D/V_QWIIC.STEP"
+		(model "${KIPRJMOD}/packages3D/V_QWIIC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21684,7 +21684,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "85b9bdaa-2f23-4eda-93bb-500027dbdbbb")
 		)
-		(model "${KIPRJMOD}/packages3D/V_QWIIC.STEP"
+		(model "${KIPRJMOD}/packages3D/V_QWIIC.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22944,7 +22944,7 @@
 			(pintype "passive")
 			(uuid "0bf13f05-4fa8-4cdd-8d49-2a70671d55d3")
 		)
-		(model "${KIPRJMOD}/packages3D/XT60PW-M.STEP"
+		(model "${KIPRJMOD}/packages3D/XT60PW-M.step"
 			(offset
 				(xyz 3.5 6 0)
 			)
