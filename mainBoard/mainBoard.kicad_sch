@@ -465,151 +465,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Zener"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Zener"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Zener_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Zener_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1102,6 +957,88 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2081,12 +2018,6 @@
 		(uuid "09b3de1b-1ce0-4bf1-912f-9f07cf182494")
 	)
 	(junction
-		(at 139.7 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a04a598-5353-4343-833c-555dff3a111d")
-	)
-	(junction
 		(at 226.06 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2109,12 +2040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c379578-b1f4-40f6-8bc0-67a1338f3f9f")
-	)
-	(junction
-		(at 137.16 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "276595c0-5a9e-4a26-9d99-8e705241d38e")
 	)
 	(junction
 		(at 172.72 102.87)
@@ -2177,12 +2102,6 @@
 		(uuid "7e919d63-01b0-4fe0-a5da-ab0cf5057fef")
 	)
 	(junction
-		(at 130.81 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80093ab1-5f95-42a6-b7b0-7502ad96fd7f")
-	)
-	(junction
 		(at 165.1 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2229,12 +2148,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7c05c14-10ad-4e03-b4c7-1a786113f85f")
-	)
-	(junction
-		(at 133.35 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3c03ce1-4ebd-492e-abd8-10e0fee2d47e")
 	)
 	(no_connect
 		(at 180.34 107.95)
@@ -2416,16 +2329,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 147.32 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ba06356-6ae8-4545-afc0-a4432202b1bc")
-	)
-	(wire
-		(pts
 			(xy 46.99 50.8) (xy 48.26 50.8)
 		)
 		(stroke
@@ -2463,16 +2366,6 @@
 			(type default)
 		)
 		(uuid "3140a060-c7ea-4f03-ae46-dc4d940f47ff")
-	)
-	(wire
-		(pts
-			(xy 147.32 104.14) (xy 147.32 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31449363-61cf-4dad-9e01-a30595048aa4")
 	)
 	(wire
 		(pts
@@ -2606,16 +2499,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 149.86 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e7c6de8-c670-405d-ba1b-b46e9043e32d")
-	)
-	(wire
-		(pts
 			(xy 251.46 52.07) (xy 251.46 50.8)
 		)
 		(stroke
@@ -2706,16 +2589,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 60.96) (xy 139.7 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "610df895-d229-4ab7-9552-1cf23dbba0d2")
-	)
-	(wire
-		(pts
 			(xy 238.76 100.33) (xy 237.49 100.33)
 		)
 		(stroke
@@ -2776,36 +2649,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 139.7 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6731e2a4-ed76-4abb-a145-1fa9bd03a257")
-	)
-	(wire
-		(pts
-			(xy 147.32 121.92) (xy 147.32 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "679ba4eb-b3f6-4df3-8325-b7cb95574fce")
-	)
-	(wire
-		(pts
-			(xy 137.16 102.87) (xy 147.32 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "686af582-80df-49f2-a169-d6de2709f97c")
-	)
-	(wire
-		(pts
 			(xy 210.82 114.3) (xy 210.82 107.95)
 		)
 		(stroke
@@ -2836,7 +2679,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 149.86 53.34)
+			(xy 138.43 53.34) (xy 149.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3106,16 +2949,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 63.5) (xy 149.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7417f0-7e18-43ae-806f-f8e53e58991a")
-	)
-	(wire
-		(pts
 			(xy 33.02 53.34) (xy 34.29 53.34)
 		)
 		(stroke
@@ -3123,16 +2956,6 @@
 			(type default)
 		)
 		(uuid "b0162571-c8f1-464c-aa3c-2d31b881416e")
-	)
-	(wire
-		(pts
-			(xy 149.86 54.61) (xy 149.86 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b56acc09-5aea-48f1-bb5b-9f2158b9c4d6")
 	)
 	(wire
 		(pts
@@ -3226,16 +3049,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 137.16 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc26256c-0606-40b4-af0c-b8e197f506d5")
-	)
-	(wire
-		(pts
 			(xy 21.59 50.8) (xy 24.13 50.8)
 		)
 		(stroke
@@ -3316,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 137.16 102.87)
+			(xy 135.89 102.87) (xy 147.32 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3569,6 +3382,18 @@
 		(uuid 5cb0a8a4-8e5c-4118-b96a-e0ca643a93cb)
 	)
 	(rectangle
+		(start 20.32 157.48)
+		(end 35.56 177.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 79b2b4b9-ef4f-48b0-8d56-e870cfd0ede1)
+	)
+	(rectangle
 		(start 20.32 113.03)
 		(end 34.29 132.08)
 		(stroke
@@ -3635,6 +3460,16 @@
 			)
 		)
 		(uuid "065b33e7-7930-4f88-ab04-4eb6d6810a5f")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 27.686 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2147baab-bc23-4dba-8bed-fa5c64e55159")
 	)
 	(text "Jetson Power"
 		(exclude_from_sim no)
@@ -3861,75 +3696,6 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 149.86 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03e98b7e-6617-4737-ab3d-06c8fb25c9e1")
-		(property "Reference" "D7"
-			(at 151.765 65.7224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 151.765 68.2624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 149.86 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a4b351e-362b-4786-b288-b6ca0e874d59")
-		)
-		(pin "2"
-			(uuid "80a21565-21de-4fd2-82e5-5f95d01f5d9d")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5020,75 +4786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 147.32 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ac98de1-7b72-431d-898c-d46952a8cec5")
-		(property "Reference" "D6"
-			(at 149.225 115.2524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 149.225 117.7924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "756354ea-9442-497c-8d6a-96fc1e4b06b1")
-		)
-		(pin "2"
-			(uuid "10e3362f-e1a1-4071-9c90-cfa885c244a4")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 231.14 104.14 0)
 		(unit 1)
@@ -5954,75 +5651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 147.32 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "684841d7-65df-4abe-bf31-09cd8f533bf4")
-		(property "Reference" "R11"
-			(at 145.415 109.7279 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "500"
-			(at 149.479 109.0929 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 148.336 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 147.32 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e7cf705-1a0c-42a2-bb3d-07adb84cd109")
-		)
-		(pin "2"
-			(uuid "1c60fbf2-2865-4121-8d39-7c5dbe4bfcef")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 62.23 0)
 		(unit 1)
@@ -6696,6 +6324,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 30.48 162.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a7ef380-0cb7-4864-905d-3ec7408b7dce")
+		(property "Reference" "H2"
+			(at 29.21 159.5119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 29.21 165.6079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 33.02 48.26 0)
 		(unit 1)
@@ -6755,6 +6446,69 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e4ddb96-37a7-4f60-a20a-b7d984914800")
+		(property "Reference" "H3"
+			(at 24.13 168.4019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 24.13 174.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -7649,76 +7403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 137.16 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b573fdb3-632b-4f85-9f47-1f703256f774")
-		(property "Reference" "D5"
-			(at 139.7 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1SMA5925BT3G"
-			(at 139.7 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 137.16 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "725be142-7597-43ed-9117-fd43ce57d812")
-		)
-		(pin "2"
-			(uuid "0b79f5ed-9d0c-4e83-b700-fff2f1a60be8")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 41.91 96.52 0)
 		(unit 1)
@@ -7788,16 +7472,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 149.86 58.42 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 162.56 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "b786ba34-3193-4f27-b10d-8dac6b9a8e4b")
-		(property "Reference" "R12"
-			(at 147.955 60.1979 90)
+		(uuid "b99de003-4489-4ce4-8470-b9fb6952b3cb")
+		(property "Reference" "H1"
+			(at 24.13 159.5119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,8 +7489,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
-			(at 152.019 59.5629 90)
+		(property "Value" "M4"
+			(at 24.13 165.6079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,8 +7498,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 150.876 58.674 90)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 25.4 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7824,7 +7508,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 58.42 0)
+			(at 25.4 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,25 +7516,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 149.86 58.42 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "79a38be4-1c7f-455b-aad5-f62633204ff5")
-		)
-		(pin "2"
-			(uuid "c4c7239a-771b-43ba-834a-5dfbc2316783")
 		)
 		(instances
-			(project "mainBoard"
+			(project ""
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "R12")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8318,71 +7996,6 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c27a6e0b-3f19-488a-9848-6de3572f8e46")
-		(property "Reference" "#PWR032"
-			(at 149.86 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c588cd89-4658-4b76-b529-85c12d4b57e9")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9190,77 +8803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
-		(at 139.7 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e951b5b1-f52c-4f76-ba8c-8c152757f83f")
-		(property "Reference" "D4"
-			(at 142.24 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1SMA5925BT3G"
-			(at 142.24 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 139.7 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 139.7 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b4e3636-5f7a-4257-aaff-eec211a8ec5d")
-		)
-		(pin "2"
-			(uuid "3d0828de-b022-4d5c-af5c-ca765e5e3988")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 21.59 76.2 0)
 		(unit 1)
@@ -9524,71 +9066,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f83af221-5366-45a1-bf78-2b8971810e29")
-		(property "Reference" "#PWR024"
-			(at 147.32 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a231b0c6-be2e-4fcf-8040-61ff41483dd4")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 133.35 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9647,6 +9124,69 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 30.48 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fad7df9d-f217-4da2-9a49-17acb26fb1d5")
+		(property "Reference" "H4"
+			(at 29.21 168.4019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 29.21 174.4979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 30.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "H4")
 					(unit 1)
 				)
 			)
