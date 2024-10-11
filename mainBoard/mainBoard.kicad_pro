@@ -486,7 +486,7 @@
       "specctra_dsn": "",
       "step": "mainBoard.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "mainBoard.wrl"
     },
     "page_layout_descr_file": ""
   },
