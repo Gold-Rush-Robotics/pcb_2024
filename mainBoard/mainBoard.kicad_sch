@@ -961,6 +961,328 @@
 				)
 			)
 		)
+		(symbol "FQD11P06TM:FQD11P06TM"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FQD11P06TM"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DPAK3-CASE-369AS"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FQU11P06-D.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "FQD11P06TM P-Channel MOSFET, 9.4 A, 60 V, 3-Pin DPAK ON Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FQD11P06TM"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "512-FQD11P06TM"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FQD11P06TM?qs=aUdwP37Aar2Cp7hVoReodQ%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "FQD11P06TM"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fqd11p06tm/on-semiconductor?region=nac"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FQD11P06TM_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1226,319 +1548,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2054,18 +2063,6 @@
 		(uuid "32ba9140-6d8f-4ce2-a8c2-cd18a42f1737")
 	)
 	(junction
-		(at 121.92 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38e03f66-21c7-425e-b939-274d9213de62")
-	)
-	(junction
-		(at 149.86 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ddb1ab1-3737-4336-aeab-2eda883a0e85")
-	)
-	(junction
 		(at 35.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2076,6 +2073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c40efe8-4876-4686-a3a9-43c0f0fb7e02")
+	)
+	(junction
+		(at 147.32 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fe21c91-c7aa-43fc-9396-74d75e16a787")
 	)
 	(junction
 		(at 233.68 50.8)
@@ -2120,12 +2123,6 @@
 		(uuid "92e77b36-c8d2-4a22-83d3-44d63106e5b2")
 	)
 	(junction
-		(at 147.32 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93a5cf6e-46bc-440f-b3ab-285ad2ad17a9")
-	)
-	(junction
 		(at 229.87 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2144,10 +2141,22 @@
 		(uuid "aef42ba1-b95c-452d-8340-02a319db8c1d")
 	)
 	(junction
+		(at 121.92 92.456)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0c85b3c-ccd4-4031-8b9b-98b35688667f")
+	)
+	(junction
 		(at 120.65 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7c05c14-10ad-4e03-b4c7-1a786113f85f")
+	)
+	(junction
+		(at 149.86 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed5ef181-bd31-4535-9ab0-7e98daa93493")
 	)
 	(no_connect
 		(at 180.34 107.95)
@@ -2206,6 +2215,16 @@
 			(type default)
 		)
 		(uuid "0aeda111-d1a0-4a62-ad73-b9d64f053036")
+	)
+	(wire
+		(pts
+			(xy 120.65 53.34) (xy 125.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7461de-7b8b-43f3-8151-d955f9011c5d")
 	)
 	(wire
 		(pts
@@ -2339,26 +2358,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 102.87) (xy 125.73 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb3bcf5-2b06-4ba2-8046-d98d2ff80a83")
-	)
-	(wire
-		(pts
-			(xy 133.35 62.23) (xy 133.35 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec1d808-773e-4b2b-8b20-65e8384871a9")
-	)
-	(wire
-		(pts
 			(xy 21.59 76.2) (xy 21.59 78.74)
 		)
 		(stroke
@@ -2366,6 +2365,16 @@
 			(type default)
 		)
 		(uuid "3140a060-c7ea-4f03-ae46-dc4d940f47ff")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e4eede-d5ac-49dd-9471-2d29bf23a08c")
 	)
 	(wire
 		(pts
@@ -2379,13 +2388,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 71.12) (xy 133.35 69.85)
+			(xy 135.89 62.23) (xy 135.89 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3746d654-5aa4-435e-b975-0cb4f42839f8")
+		(uuid "375e66e1-6825-4a66-8672-1c77f68fcb3a")
 	)
 	(wire
 		(pts
@@ -2429,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 102.87) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c61dd84-d04d-4869-94b3-4785f3949ceb")
+	)
+	(wire
+		(pts
 			(xy 157.48 102.87) (xy 165.1 102.87)
 		)
 		(stroke
@@ -2436,16 +2455,6 @@
 			(type default)
 		)
 		(uuid "3ea97094-3db5-41a6-89ba-e9a6078519e5")
-	)
-	(wire
-		(pts
-			(xy 130.81 120.65) (xy 130.81 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc29f65-19af-4e6d-bba8-f1c02fe320cf")
 	)
 	(wire
 		(pts
@@ -2496,6 +2505,16 @@
 			(type default)
 		)
 		(uuid "4d463922-6ff6-449b-b33b-545c876daa44")
+	)
+	(wire
+		(pts
+			(xy 121.92 102.87) (xy 125.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f7c4c00-74f9-4e78-8f6e-3a49f5a78898")
 	)
 	(wire
 		(pts
@@ -2609,6 +2628,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 71.12) (xy 135.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621dfd73-8c59-49c9-a14f-8e0fd9e7fea7")
+	)
+	(wire
+		(pts
 			(xy 62.23 50.8) (xy 63.5 50.8)
 		)
 		(stroke
@@ -2669,6 +2698,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 113.03) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b732311-ca0d-430a-b615-b192017efa8b")
+	)
+	(wire
+		(pts
 			(xy 233.68 50.8) (xy 240.03 50.8)
 		)
 		(stroke
@@ -2679,13 +2718,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 149.86 53.34)
+			(xy 121.92 92.456) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e6bf3b6-4ead-4930-ae5a-35191570d95a")
+		(uuid "6fe12271-393b-482e-b9e6-c022c4e82d4a")
 	)
 	(wire
 		(pts
@@ -2729,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 147.32 92.71)
+			(xy 137.922 92.456) (xy 147.32 92.456)
 		)
 		(stroke
 			(width 0)
@@ -2749,7 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 127 92.71)
+			(xy 121.92 92.456) (xy 130.302 92.456)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 121.92 102.87)
+			(xy 121.92 91.44) (xy 121.92 92.456)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2838,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 92.71) (xy 147.32 102.87)
+			(xy 147.32 92.456) (xy 147.32 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2826,6 +2865,16 @@
 			(type default)
 		)
 		(uuid "8ad0cbe9-a090-4f49-b327-3a6ce22167f8")
+	)
+	(wire
+		(pts
+			(xy 135.89 121.92) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bcac689-24bb-4323-bdcc-3a1d62b28ad0")
 	)
 	(wire
 		(pts
@@ -2966,16 +3015,6 @@
 			(type default)
 		)
 		(uuid "b6f29c0a-028b-45b3-bafb-75af597dffda")
-	)
-	(wire
-		(pts
-			(xy 130.81 111.76) (xy 130.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b77e9a25-f072-444d-96e5-aaf8d461d985")
 	)
 	(wire
 		(pts
@@ -3129,16 +3168,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 102.87) (xy 147.32 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d771a4c0-a599-4805-b735-b5fee12c7759")
-	)
-	(wire
-		(pts
 			(xy 247.65 101.6) (xy 247.65 100.33)
 		)
 		(stroke
@@ -3156,16 +3185,6 @@
 			(type default)
 		)
 		(uuid "d9bec6f6-4792-4792-9ccd-d610e4a27856")
-	)
-	(wire
-		(pts
-			(xy 121.92 91.44) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9d0441-4fc1-4bd0-b188-b0402a3c02a7")
 	)
 	(wire
 		(pts
@@ -3236,16 +3255,6 @@
 			(type default)
 		)
 		(uuid "e466af93-9be0-4bbe-a9da-c7917756d30c")
-	)
-	(wire
-		(pts
-			(xy 120.65 53.34) (xy 128.27 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0fc3ea-1df3-4f5c-8e6d-1404e131e09b")
 	)
 	(wire
 		(pts
@@ -3966,8 +3975,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0bed4035-ab1f-4ebb-b64b-68a6695251c2")
+		(property "Reference" "#PWR029"
+			(at 135.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5009f2ee-7afa-4807-9fb5-210db0c9edcf")
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
-		(at 130.81 92.71 270)
+		(at 134.112 92.456 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3975,7 +4049,7 @@
 		(dnp yes)
 		(uuid "0ed90583-b9a6-49a1-a598-6eae14abff17")
 		(property "Reference" "R14"
-			(at 129.0321 90.805 90)
+			(at 132.3341 90.551 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +4058,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 130.1751 94.869 90)
+			(at 133.4771 94.615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3993,7 +4067,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 130.556 93.726 90)
+			(at 133.858 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4002,7 +4076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 92.71 0)
+			(at 134.112 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4085,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 130.81 92.71 0)
+			(at 134.112 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,75 +4168,6 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 133.35 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "144f049d-c465-43ce-87c8-4bbd4bc7bf7a")
-		(property "Reference" "R9"
-			(at 134.62 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 134.62 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.366 66.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 133.35 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6d6442e-f232-42c8-8004-629c92f85aa9")
-		)
-		(pin "2"
-			(uuid "515a56b7-15fc-47d8-a96f-365f5ff9e083")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4648,6 +4653,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36323cef-a7bd-4f4a-b3d0-bca0702fa20a")
+		(property "Reference" "#PWR024"
+			(at 135.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62e01ae9-470d-4e83-8a74-280d7f0a74f1")
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 226.06 54.61 0)
 		(unit 1)
@@ -4918,104 +4988,6 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 133.35 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "415a45ea-c510-4d3f-b512-e2affba05a33")
-		(property "Reference" "Q1"
-			(at 133.35 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FQD11P06TM"
-			(at 133.35 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 130.81 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 150.495 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 152.4 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 148.59 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc34f0eb-e764-410c-ba61-6dfa0d9d1335")
-		)
-		(pin "3"
-			(uuid "40257b14-515e-43b5-8302-2499e60373e2")
-		)
-		(pin "2"
-			(uuid "ac3c1a9b-f284-4526-b2cd-8fe80f004a68")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5423,104 +5395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 130.81 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5536fcb2-4399-48e1-b0a9-cb93c517569a")
-		(property "Reference" "Q2"
-			(at 130.81 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FQD11P06TM"
-			(at 130.81 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 128.27 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 143.51 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 147.955 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 149.86 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d8b5016-9683-421b-8981-1d097cfa748a")
-		)
-		(pin "3"
-			(uuid "205431c0-0af7-43c3-9bcf-c3638c1abfed")
-		)
-		(pin "2"
-			(uuid "f8ba292c-2c28-46fa-ad43-9e1ad0c4e097")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 68.58 85.09 0)
 		(unit 1)
@@ -5710,6 +5584,75 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 135.89 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cbbe5d9-1598-4a33-af50-932c972de24e")
+		(property "Reference" "R10"
+			(at 137.16 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 137.16 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 136.906 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77e0337-dd5f-4ee3-a49b-a22f67e9b8b5")
+		)
+		(pin "2"
+			(uuid "ca34f860-e169-4d13-a1d2-15b916819fcb")
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5977,6 +5920,75 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 135.89 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a81d0a1-6810-443d-92e1-79cfa1056751")
+		(property "Reference" "R9"
+			(at 137.16 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 137.16 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 136.906 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2dbc902-db7e-449f-9064-71335fc7e962")
+		)
+		(pin "2"
+			(uuid "19eb1c76-0f4f-4b9f-8120-1f05c140c9a3")
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6381,6 +6393,148 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FQD11P06TM:FQD11P06TM")
+		(at 135.89 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b932101-732c-45f8-8542-fa5f20b61fb9")
+		(property "Reference" "Q1"
+			(at 133.35 96.647 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FQD11P06TM"
+			(at 133.731 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 234.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FQU11P06-D.pdf"
+			(at 334.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "FQD11P06TM P-Channel MOSFET, 9.4 A, 60 V, 3-Pin DPAK ON Semiconductor"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 534.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 634.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FQD11P06TM"
+			(at 734.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-FQD11P06TM"
+			(at 834.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FQD11P06TM?qs=aUdwP37Aar2Cp7hVoReodQ%3D%3D"
+			(at 934.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FQD11P06TM"
+			(at 1034.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fqd11p06tm/on-semiconductor?region=nac"
+			(at 1134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d272a60b-34c8-47d7-8356-5f0fa4e1d952")
+		)
+		(pin "2"
+			(uuid "1c49d04b-ba5b-45c9-bb4f-3e89f1aca421")
+		)
+		(pin "3"
+			(uuid "9f227688-1bb8-4d12-a2cf-3e71173e4a7f")
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7114,140 +7268,6 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9701709-05ae-41ff-81bf-9a381ad1c360")
-		(property "Reference" "#PWR031"
-			(at 130.81 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d761cca0-108d-49cf-b83c-8a364f036ec2")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 130.81 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "abc1a550-7e8a-4fb0-a607-d09e3b907055")
-		(property "Reference" "R10"
-			(at 132.08 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 132.08 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 131.826 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 130.81 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "178f03ea-9cae-4bbe-a6e8-4bd252f49665")
-		)
-		(pin "2"
-			(uuid "81650510-8352-4482-a440-e0d161e1fef2")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8205,6 +8225,148 @@
 		)
 	)
 	(symbol
+		(lib_id "FQD11P06TM:FQD11P06TM")
+		(at 135.89 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0eacfa5-9398-4235-a3d0-c9310609d749")
+		(property "Reference" "Q2"
+			(at 133.35 47.117 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FQD11P06TM"
+			(at 133.731 49.276 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 234.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FQU11P06-D.pdf"
+			(at 334.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "FQD11P06TM P-Channel MOSFET, 9.4 A, 60 V, 3-Pin DPAK ON Semiconductor"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 534.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 634.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FQD11P06TM"
+			(at 734.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-FQD11P06TM"
+			(at 834.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FQD11P06TM?qs=aUdwP37Aar2Cp7hVoReodQ%3D%3D"
+			(at 934.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "FQD11P06TM"
+			(at 1034.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/fqd11p06tm/on-semiconductor?region=nac"
+			(at 1134.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73f70530-b157-4ebb-bbb6-6076fae3b745")
+		)
+		(pin "2"
+			(uuid "808aa539-a6ab-4950-9f71-a306946509c8")
+		)
+		(pin "3"
+			(uuid "f35a64b9-1c2d-46c6-8d60-9d13599d2297")
+		)
+		(instances
+			(project "mainBoard"
+				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 237.49 99.06 0)
 		(unit 1)
@@ -9059,71 +9221,6 @@
 			(project "mainBoard"
 				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f94cf067-9b22-4951-b499-c40e5bccbec3")
-		(property "Reference" "#PWR029"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "968a45ae-ab8a-4c34-9348-9a487562626f")
-		)
-		(instances
-			(project "mainBoard"
-				(path "/c4a17c19-34f8-41cd-9019-636b61180dc7"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
