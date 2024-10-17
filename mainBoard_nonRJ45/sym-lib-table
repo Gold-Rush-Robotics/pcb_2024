@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TCAN3414DR")(type "KiCad")(uri "${KIPRJMOD}/custom_symbols/TCAN3414DR.kicad_sym")(options "")(descr ""))
+  (lib (name "QWIIC")(type "KiCad")(uri "${KIPRJMOD}/custom_symbols/S6B-PH-K-S_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "FQD11P06TM")(type "KiCad")(uri "${KIPRJMOD}/custom_symbols/FQD11P06TM.kicad_sym")(options "")(descr ""))
+)
