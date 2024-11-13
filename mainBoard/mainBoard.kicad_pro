@@ -512,7 +512,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "mainBoard.step",
-      "svg": "",
+      "svg": "./",
       "vrml": "mainBoard.wrl"
     },
     "page_layout_descr_file": ""
