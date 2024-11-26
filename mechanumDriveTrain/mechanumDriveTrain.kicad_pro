@@ -469,7 +469,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mechanumDriveTrain.step",
       "svg": "",
       "vrml": ""
     },
