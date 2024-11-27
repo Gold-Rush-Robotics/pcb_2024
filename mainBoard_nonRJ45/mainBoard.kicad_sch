@@ -3564,26 +3564,6 @@
 		)
 		(uuid "df4910d2-f30f-461e-8400-f81c6e4cea9c")
 	)
-	(text "Note: EN floating to turn on as soon as it gets power"
-		(exclude_from_sim no)
-		(at 188.722 124.968 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "edc2d6e2-4f80-46b5-a32f-f06d20b12d2f")
-	)
-	(text "Note: EN floating to turn on as soon as it gets power"
-		(exclude_from_sim no)
-		(at 185.547 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff022aad-d818-4c25-aa9a-cba91ee33907")
-	)
 	(symbol
 		(lib_id "Device:R_US")
 		(at 133.35 43.18 270)
