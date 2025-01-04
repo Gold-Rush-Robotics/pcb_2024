@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Teensy 4.1")(type "KiCad")(uri "${KIPRJMOD}/Symbols/Teensy41.kicad_sym")(options "")(descr ""))
+  (lib (name "TCAN3414DR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/TCAN3414DR.kicad_sym")(options "")(descr ""))
+  (lib (name "PolouMotorDriver")(type "KiCad")(uri "${KIPRJMOD}/Symbols/PolouMotorDriver.kicad_sym")(options "")(descr ""))
+)
