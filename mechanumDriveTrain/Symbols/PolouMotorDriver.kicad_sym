@@ -64,7 +64,7 @@
 		)
 		(symbol "Pololu_Motor_Driver_18v17_1_1"
 			(text "Pololu Motor Driver 18v17"
-				(at 9.652 33.274 0)
+				(at 23.368 4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -118,6 +118,42 @@
 					)
 				)
 				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 31.75 270)
+				(length 2.54)
+				(name "VREFGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 31.75 270)
+				(length 2.54)
+				(name "VREF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
