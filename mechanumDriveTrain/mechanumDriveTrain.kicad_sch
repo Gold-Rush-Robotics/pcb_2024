@@ -6,12 +6,114 @@
 	(paper "A4")
 	(title_block
 		(title "Mechanum Drive Train")
-		(date "2024-11-12")
+		(date "2025-01-14")
 		(rev "0.1")
 		(company "Gold Rush Robotics")
 		(comment 1 "WIP")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -142,6 +244,261 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -453,6 +810,88 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3323,10 +3762,6 @@
 		(uuid "27181a49-8153-4369-ad9f-b67991ba3547")
 	)
 	(no_connect
-		(at 209.55 104.14)
-		(uuid "2761e327-8ced-465f-bcf1-da5a6c8c7b2f")
-	)
-	(no_connect
 		(at 209.55 127)
 		(uuid "3636855e-9e00-4256-8976-f91d47caa673")
 	)
@@ -3375,10 +3810,6 @@
 		(uuid "8117433e-7f1b-478d-873a-bc55e5e9b8a2")
 	)
 	(no_connect
-		(at 209.55 106.68)
-		(uuid "849968ae-95f2-450b-831a-88b260f7c86c")
-	)
-	(no_connect
 		(at 209.55 114.3)
 		(uuid "89fe0e9d-1c32-477e-a7a3-dccbb7f2fab9")
 	)
@@ -3417,10 +3848,6 @@
 	(no_connect
 		(at 209.55 124.46)
 		(uuid "aa94e203-ce0f-49e8-a486-e8078bba1405")
-	)
-	(no_connect
-		(at 209.55 109.22)
-		(uuid "acc0dde2-0ff9-4178-b410-293f8d244ba6")
 	)
 	(no_connect
 		(at 250.19 119.38)
@@ -3467,10 +3894,6 @@
 		(uuid "e6706e12-6676-4c7e-8088-b3a97b1924a7")
 	)
 	(no_connect
-		(at 209.55 101.6)
-		(uuid "e83b30f9-c3c8-4004-ae7d-549cf9a23342")
-	)
-	(no_connect
 		(at 209.55 119.38)
 		(uuid "eb5e6ee4-6574-4202-beaa-bafc36947921")
 	)
@@ -3492,6 +3915,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 160.02) (xy 107.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ecd76c-9ce5-4f3f-8057-651eecd05e98")
+	)
+	(wire
+		(pts
 			(xy 91.44 63.5) (xy 95.25 63.5)
 		)
 		(stroke
@@ -3509,6 +3942,16 @@
 			(type default)
 		)
 		(uuid "0a0fc00d-7900-48c4-88fb-fa50e89723d4")
+	)
+	(wire
+		(pts
+			(xy 111.76 137.16) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfc4344-cbb8-4a10-9add-9b4f869dad69")
 	)
 	(wire
 		(pts
@@ -3552,6 +3995,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 172.72) (xy 116.84 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6e8454-7603-42eb-81f0-d3e9c4df0403")
+	)
+	(wire
+		(pts
+			(xy 39.37 170.18) (xy 39.37 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ecb600-e312-46b8-be13-a15b01288a15")
+	)
+	(wire
+		(pts
 			(xy 38.1 114.3) (xy 44.45 114.3)
 		)
 		(stroke
@@ -3559,6 +4022,16 @@
 			(type default)
 		)
 		(uuid "268008bd-da1c-42ce-a1cb-2a6771e50f80")
+	)
+	(wire
+		(pts
+			(xy 39.37 186.69) (xy 52.07 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cbf297-9850-4c3c-b4c9-05e33e063ce8")
 	)
 	(wire
 		(pts
@@ -3572,6 +4045,26 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 167.64) (xy 52.07 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3149122d-8125-48c2-8a88-1913d22dd210")
+	)
+	(wire
+		(pts
+			(xy 111.76 165.1) (xy 116.84 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33300f0f-8027-4b4e-8391-c46185b62de1")
+	)
+	(wire
+		(pts
 			(xy 95.25 71.12) (xy 91.44 71.12)
 		)
 		(stroke
@@ -3579,6 +4072,16 @@
 			(type default)
 		)
 		(uuid "34a4262c-40d3-4278-aa39-17f815b89797")
+	)
+	(wire
+		(pts
+			(xy 116.84 160.02) (xy 116.84 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae4ad10-1b7d-44bf-a49f-9d999603ea4c")
 	)
 	(wire
 		(pts
@@ -3609,6 +4112,26 @@
 			(type default)
 		)
 		(uuid "42eec4b8-9052-406c-b6f2-0eee06cd86c5")
+	)
+	(wire
+		(pts
+			(xy 40.64 179.07) (xy 40.64 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a0b8dc-253c-44c7-a20e-e56612ee72a0")
+	)
+	(wire
+		(pts
+			(xy 35.56 189.23) (xy 39.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fd89d2-220e-4782-80f7-edb0efb6226e")
 	)
 	(wire
 		(pts
@@ -3732,6 +4255,26 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 189.23) (xy 39.37 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74868ebb-e066-4aa3-b196-2b70250eef35")
+	)
+	(wire
+		(pts
+			(xy 107.95 168.91) (xy 116.84 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785b98c4-d4a8-4544-8de8-d3ac61e810ea")
+	)
+	(wire
+		(pts
 			(xy 91.44 66.04) (xy 91.44 63.5)
 		)
 		(stroke
@@ -3782,6 +4325,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 170.18) (xy 39.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87feafe6-c863-469f-a2e5-99fec1420cb7")
+	)
+	(wire
+		(pts
 			(xy 45.72 68.58) (xy 46.99 68.58)
 		)
 		(stroke
@@ -3799,6 +4352,16 @@
 			(type default)
 		)
 		(uuid "8bf8b9ce-5201-492f-b520-b80a3d7da698")
+	)
+	(wire
+		(pts
+			(xy 55.88 137.16) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd6651c-0c19-4aef-9d2b-ea94fd0d0b48")
 	)
 	(wire
 		(pts
@@ -3892,6 +4455,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 160.02) (xy 111.76 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20b3dcb-265b-46c4-84a8-116d675756b5")
+	)
+	(wire
+		(pts
 			(xy 71.12 120.65) (xy 71.12 118.11)
 		)
 		(stroke
@@ -3909,6 +4482,16 @@
 			(type default)
 		)
 		(uuid "aa9bfada-1c6a-44ee-ab78-438e4b4cc073")
+	)
+	(wire
+		(pts
+			(xy 40.64 160.02) (xy 40.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf22623-3fa9-40f6-b7ca-56f27b0139a2")
 	)
 	(wire
 		(pts
@@ -3952,6 +4535,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 160.02) (xy 40.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ad1dbe-0ab0-4a6e-8d3b-5259cc122821")
+	)
+	(wire
+		(pts
 			(xy 208.28 88.9) (xy 209.55 88.9)
 		)
 		(stroke
@@ -3959,6 +4552,16 @@
 			(type default)
 		)
 		(uuid "ca053dee-a89f-4c5c-aee7-e41e88d380de")
+	)
+	(wire
+		(pts
+			(xy 35.56 179.07) (xy 40.64 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5457e47-1f3a-419b-a431-3e93df8e4229")
 	)
 	(wire
 		(pts
@@ -3992,6 +4595,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 184.15) (xy 52.07 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15e003d-d34e-4380-8d92-f91261130ce0")
+	)
+	(wire
+		(pts
 			(xy 146.05 83.82) (xy 154.94 83.82)
 		)
 		(stroke
@@ -4009,6 +4622,16 @@
 			(type default)
 		)
 		(uuid "e5632a0a-99b5-4c37-9309-25d34074ed9d")
+	)
+	(wire
+		(pts
+			(xy 40.64 165.1) (xy 52.07 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cec7f6-7fb2-4c9b-9fb2-cd6e6323252b")
 	)
 	(wire
 		(pts
@@ -4101,6 +4724,18 @@
 		(uuid "fbe67b9c-8147-46f9-a472-431b14c8a189")
 	)
 	(rectangle
+		(start 80.01 154.94)
+		(end 93.98 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1f617b9a-f226-4900-9d3f-106405cef429)
+	)
+	(rectangle
 		(start 31.75 48.26)
 		(end 121.92 83.82)
 		(stroke
@@ -4111,6 +4746,30 @@
 			(type none)
 		)
 		(uuid 388d1d6e-9dba-4669-bbca-c2b3613889db)
+	)
+	(rectangle
+		(start 31.75 154.94)
+		(end 67.31 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e618dec-3599-431a-902d-860bc25e99ea)
+	)
+	(rectangle
+		(start 104.14 154.94)
+		(end 124.46 179.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 96d3a31b-2d55-483a-a6b8-d7f63641d329)
 	)
 	(rectangle
 		(start 31.75 95.25)
@@ -4135,6 +4794,40 @@
 			(type none)
 		)
 		(uuid f5d86708-8f05-4d51-8443-a16957a312c1)
+	)
+	(text "MOUNTS"
+		(exclude_from_sim no)
+		(at 87.7796 150.8064 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "07e70c73-0888-4fcd-9f4e-3fb24c890ee6")
+	)
+	(text "TP"
+		(exclude_from_sim no)
+		(at 114.554 150.876 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "26687f7b-6255-40a7-b36b-98b8869668fc")
+	)
+	(text "Motor 1"
+		(exclude_from_sim no)
+		(at 62.484 167.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39d747c7-a460-4a4e-95b9-a792488c8243")
 	)
 	(text "DATA"
 		(exclude_from_sim no)
@@ -4171,6 +4864,50 @@
 			)
 		)
 		(uuid "7f0f7b3c-f31c-4a21-8aac-b00b9efa76da")
+	)
+	(text "Motor 2"
+		(exclude_from_sim no)
+		(at 63.246 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3336a93-3385-43d5-853a-75a0a5887bea")
+	)
+	(text "MOTORS"
+		(exclude_from_sim no)
+		(at 49.784 151.384 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "f12b609b-811d-47a2-94b7-6ac395e823f8")
+	)
+	(global_label "EN_OUTA1"
+		(shape input)
+		(at 52.07 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a7e1c5d-5e49-430a-9ec3-00889200923d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.711 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PWM1"
 		(shape input)
@@ -4348,6 +5085,28 @@
 			)
 		)
 	)
+	(global_label "EN_OUTA2"
+		(shape input)
+		(at 209.55 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ec18817-31c1-4e9b-961d-17a85a024b33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.191 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUTA2"
 		(shape input)
 		(at 123.19 128.27 0)
@@ -4436,6 +5195,28 @@
 			)
 		)
 	)
+	(global_label "EN_OUTB2"
+		(shape input)
+		(at 209.55 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5e0448-3a2f-412f-a215-6cbde00db4d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.0096 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM2"
 		(shape input)
 		(at 208.28 83.82 180)
@@ -4502,6 +5283,50 @@
 			)
 		)
 	)
+	(global_label "EN_OUTB1"
+		(shape input)
+		(at 209.55 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a2d3f5b-e66c-4732-886c-953a18dd082e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.0096 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_OUTB2"
+		(shape input)
+		(at 52.07 191.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b4c1060-b7bc-4efe-b097-8304830e8801")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.5296 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANP"
 		(shape input)
 		(at 106.68 58.42 90)
@@ -4546,6 +5371,28 @@
 			)
 		)
 	)
+	(global_label "OUTB2"
+		(shape input)
+		(at 52.07 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b80b179-53a5-4755-b5fd-7c1af255e5c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.9767 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CANN"
 		(shape input)
 		(at 106.68 73.66 270)
@@ -4581,6 +5428,28 @@
 		(uuid "71698c38-4a71-4e9c-af21-6df644cf54b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.5777 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EN_OUTB1"
+		(shape input)
+		(at 52.07 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c395b90-48de-4616-a023-c6eee77e7e19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.5296 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,6 +5591,28 @@
 			)
 		)
 	)
+	(global_label "EN_OUTA1"
+		(shape input)
+		(at 209.55 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96f3baba-e0f8-4c14-9c94-1b11db2656c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.191 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM2"
 		(shape input)
 		(at 100.33 130.81 180)
@@ -4735,6 +5626,28 @@
 		(uuid "9943ec69-df55-43d2-8d6a-153506b04ee7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.9625 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTB1"
+		(shape input)
+		(at 52.07 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d0ca039-4685-4f76-8c79-d3b7043b43bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.9767 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,6 +5701,28 @@
 			)
 		)
 	)
+	(global_label "EN_OUTA2"
+		(shape input)
+		(at 52.07 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c63d375d-e48f-4539-b18f-217a42d98787")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.711 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SLP2"
 		(shape input)
 		(at 100.33 121.92 180)
@@ -4801,6 +5736,50 @@
 		(uuid "df398023-402e-45cb-9915-8d8c66d39382")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.6277 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTA2"
+		(shape input)
+		(at 52.07 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e350c2a0-5eb0-4e0c-b134-a05a3c36a9a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.1581 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUTA1"
+		(shape input)
+		(at 52.07 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec947090-bd99-4e2e-b8f5-ae4616aa1b9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.1581 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,6 +5876,72 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0093fa7a-d044-4690-b3eb-385813fb5136")
+		(property "Reference" "TP4"
+			(at 121.9201 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 118.8721 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 116.84 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2b0ba1a-01c3-45e8-89f7-61709f284566")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5402,7 +6447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 144.78 0)
+		(at 250.19 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5410,7 +6455,7 @@
 		(dnp no)
 		(uuid "3ba4556d-5014-44d6-a192-d35b01da3494")
 		(property "Reference" "#PWR018"
-			(at 250.19 151.13 0)
+			(at 256.54 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +6464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 148.59 0)
+			(at 254 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,6 +6580,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 57.15 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41f04bb5-be4d-4597-8a55-c9b6fd02ec69")
+		(property "Reference" "J3"
+			(at 55.88 157.2259 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5 pin dupont"
+			(at 59.69 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0ff90764-ac12-475c-bb42-872d8eb1570e")
+		)
+		(pin "3"
+			(uuid "98976a95-8da7-4ff5-8315-7730ceb8a7d3")
+		)
+		(pin "1"
+			(uuid "676b3a65-bdc1-4f84-a395-f7545b066a45")
+		)
+		(pin "4"
+			(uuid "8b0a11c9-70ed-4359-8570-d9f7dec63d9b")
+		)
+		(pin "2"
+			(uuid "f5f50304-2bce-4325-bf06-ee47d0693612")
+		)
+		(pin "6"
+			(uuid "076cd851-d177-4921-8d17-dc9893d0a2ed")
+		)
+		(instances
+			(project ""
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 106.68 69.85 0)
 		(unit 1)
@@ -5598,6 +6725,71 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 35.56 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43cf11d5-7c20-488b-8157-023b9536013e")
+		(property "Reference" "#PWR020"
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.052 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 35.56 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d1bd895-906b-45ba-88be-8f58fd860139")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5804,7 +6996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 135.89 0)
+		(at 111.76 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5812,7 +7004,7 @@
 		(dnp no)
 		(uuid "47ed66d2-8fb6-43f5-a660-a5a0f80b12ce")
 		(property "Reference" "#PWR08"
-			(at 111.76 142.24 0)
+			(at 111.76 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +7013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 139.7 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +7021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 135.89 0)
+			(at 111.76 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +7030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 135.89 0)
+			(at 111.76 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +7039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 135.89 0)
+			(at 111.76 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,6 +7054,72 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4adaa433-271a-4a35-a1e0-aed7adcc5844")
+		(property "Reference" "TP1"
+			(at 121.9201 159.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 118.8721 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96e09ae1-e03d-4466-9fd1-4cb545513038")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5931,6 +7189,71 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f2c4d38-78f7-43ee-b11c-1f8f3e551a59")
+		(property "Reference" "#PWR019"
+			(at 35.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa7c051-8d99-4391-a9a0-241b650a41e1")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6138,6 +7461,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 107.95 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63d37615-fa1e-4d15-a985-c643ec5d2104")
+		(property "Reference" "#PWR025"
+			(at 107.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 107.442 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90fdecbd-0276-47aa-8c00-a0c18753d773")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64b3a418-4996-47f1-9ec9-f1ee8a73b38a")
+		(property "Reference" "TP2"
+			(at 121.9201 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 118.8721 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 116.84 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd8b51fe-f4c0-44d0-8aff-48c5508fef51")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 72.39 0)
 		(unit 1)
@@ -6203,6 +7657,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 57.15 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6be0b671-6814-4991-b01b-6010d12ec325")
+		(property "Reference" "J4"
+			(at 55.88 176.2759 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5 pin dupont"
+			(at 59.69 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ef9d1606-164a-4ecb-971c-f0bea1e4932e")
+		)
+		(pin "3"
+			(uuid "58eb5a42-0454-435c-8c6a-a59423aeb17e")
+		)
+		(pin "1"
+			(uuid "78143790-cce5-4358-9972-5796903fe174")
+		)
+		(pin "4"
+			(uuid "3d679dbe-3c0c-4e80-ad2a-f40370283d80")
+		)
+		(pin "2"
+			(uuid "7a05ef96-e776-469b-b95f-23b99b661b88")
+		)
+		(pin "6"
+			(uuid "638a0fad-6c19-4899-80f7-1ce40516dbe6")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 95.25 62.23 0)
 		(unit 1)
@@ -6262,6 +7798,71 @@
 			(project ""
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 116.84 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ab67dda-38a2-44a7-8db6-14f58946946f")
+		(property "Reference" "#PWR023"
+			(at 116.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 116.586 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d151e6-423b-4b2d-8282-ee37877f2d96")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6647,6 +8248,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 107.95 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87543879-ef19-4a00-b9f0-9fdbe0d2ab4d")
+		(property "Reference" "#PWR026"
+			(at 107.95 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61029c31-785c-4d15-b15b-c8d59aad8b53")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 203.2 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6909,6 +8575,199 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9ee4fb7-518d-41f3-b47b-513f31189c19")
+		(property "Reference" "H3"
+			(at 87.63 156.9719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 87.63 163.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 88.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 35.56 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4af979c-59e0-481f-8c09-ba26c1509b6a")
+		(property "Reference" "#PWR022"
+			(at 35.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 35.052 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4876039-d5d9-40ff-9bf0-a284a56e6c61")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf2e0cf9-2147-4030-97bd-f6420ef446a6")
+		(property "Reference" "#PWR024"
+			(at 111.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11e788f3-59a0-416c-abd2-9cbe39aa60c8")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7182,6 +9041,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7b977af-c938-48a3-ab56-aa353f1e0c41")
+		(property "Reference" "H4"
+			(at 87.63 165.8619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 87.63 171.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 38.1 114.3 0)
 		(unit 1)
@@ -7248,7 +9170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 135.89 0)
+		(at 55.88 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7256,7 +9178,7 @@
 		(dnp no)
 		(uuid "db1d53bd-ab05-44f1-88e2-740216929f0f")
 		(property "Reference" "#PWR03"
-			(at 55.88 142.24 0)
+			(at 55.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +9187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 139.7 0)
+			(at 55.88 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,7 +9195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 135.89 0)
+			(at 55.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7282,7 +9204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 135.89 0)
+			(at 55.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +9213,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 135.89 0)
+			(at 55.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,6 +9228,69 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 168.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dea33ad7-6bd6-4648-8666-1ecf5faad88d")
+		(property "Reference" "H2"
+			(at 82.55 165.8619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 82.55 171.9579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -7375,6 +9360,137 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e16e2712-faaa-4a7e-ad74-3115d877146c")
+		(property "Reference" "TP3"
+			(at 121.9201 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 118.8721 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 116.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aac3ad2-885d-4d66-b3ad-183169394190")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2ab78a6-bac8-4f00-9bb9-c4de42afddea")
+		(property "Reference" "#PWR021"
+			(at 35.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1eb07b4-eb9f-49d9-a841-bca7f373559d")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7509,6 +9625,69 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 83.82 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e669141f-9612-4c8b-afc3-e8953069ff8d")
+		(property "Reference" "H1"
+			(at 82.55 156.9719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 82.55 163.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 83.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "H1")
 					(unit 1)
 				)
 			)
