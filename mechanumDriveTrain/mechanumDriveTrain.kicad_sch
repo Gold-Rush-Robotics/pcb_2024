@@ -6343,6 +6343,28 @@
 			)
 		)
 	)
+	(global_label "CS2"
+		(shape input)
+		(at 184.15 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac15d9bf-9219-4a5c-8168-6f93b0a1defa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.4758 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIR1"
 		(shape input)
 		(at 39.37 106.68 180)
@@ -6541,7 +6563,7 @@
 			)
 		)
 	)
-	(global_label "CS1"
+	(global_label "CS2"
 		(shape input)
 		(at 129.54 99.06 0)
 		(fields_autoplaced yes)
