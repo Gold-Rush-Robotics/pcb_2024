@@ -4124,6 +4124,10 @@
 		(uuid "0ef712a0-05dc-42ad-9f54-22aebdca4cdf")
 	)
 	(no_connect
+		(at 129.54 101.6)
+		(uuid "11e57464-8253-466c-a7f7-93810864a912")
+	)
+	(no_connect
 		(at 184.15 85.09)
 		(uuid "1b5ccabf-54b1-45b2-9d17-c7eeedefeabd")
 	)
@@ -4482,16 +4486,6 @@
 			(type default)
 		)
 		(uuid "3e0c4c81-4164-499f-9f48-e6e7d6f79e53")
-	)
-	(wire
-		(pts
-			(xy 138.43 104.14) (xy 132.08 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e4a56f9-f9f4-4ee6-9ece-b3a766c26c9f")
 	)
 	(wire
 		(pts
@@ -4905,16 +4899,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 101.6) (xy 129.54 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a773e37-3efb-44be-8801-af3b7e263f9c")
-	)
-	(wire
-		(pts
 			(xy 182.88 62.23) (xy 184.15 62.23)
 		)
 		(stroke
@@ -5072,16 +5056,6 @@
 			(type default)
 		)
 		(uuid "bcccd8f3-25d6-40b5-bc6b-0a12be7f9fa3")
-	)
-	(wire
-		(pts
-			(xy 132.08 104.14) (xy 132.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc9edcc-b723-445b-a753-3cd617aefc05")
 	)
 	(wire
 		(pts
@@ -5755,6 +5729,28 @@
 			)
 		)
 	)
+	(global_label "CS2"
+		(shape input)
+		(at 184.15 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3981467d-de49-4601-8fee-83ebccc083ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.4758 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUTB1"
 		(shape input)
 		(at 114.3 151.13 180)
@@ -6032,6 +6028,28 @@
 		(uuid "6b80b179-53a5-4755-b5fd-7c1af255e5c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.5467 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS1"
+		(shape input)
+		(at 184.15 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c414967-2077-4541-9761-c7dad0f5ee58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.4758 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,28 +6389,6 @@
 			)
 		)
 	)
-	(global_label "CS2"
-		(shape input)
-		(at 184.15 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac15d9bf-9219-4a5c-8168-6f93b0a1defa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.4758 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIR1"
 		(shape input)
 		(at 39.37 106.68 180)
@@ -6428,28 +6424,6 @@
 		(uuid "bd53f8c6-3da8-444d-a419-afd4167cc094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.5125 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CS1"
-		(shape input)
-		(at 184.15 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bd6cf60f-1c5e-4832-90b8-299e30dec574")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.4758 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,71 +7098,6 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 138.43 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1503452f-8caa-448f-8ae0-adca6808f3b0")
-		(property "Reference" "#PWR028"
-			(at 138.43 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 138.43 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 138.43 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70a23513-16f7-47ce-84fe-d98a0109efab")
-		)
-		(instances
-			(project "mechanumDriveTrain"
-				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9416,7 +9325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DEV-16771:MODULE_DEV-16771"
+		(property "Footprint" "Custom Footprints:Teensy41"
 			(at 204.47 72.39 0)
 			(effects
 				(font
@@ -10981,7 +10890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 34.29 -50.47 0)
 			(effects
 				(font
