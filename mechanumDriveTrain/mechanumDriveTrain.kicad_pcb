@@ -582,7 +582,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "10K"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6048,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "10K"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20945,7 +20945,7 @@
 		(polygon
 			(pts
 				(xy 41.7 91.8) (xy 38.8 91.8) (xy 38.8 98.5) (xy 41.1 98.5) (xy 41.1 96.1) (xy 46.896804 96.1) (xy 46.9 90.4)
-				(xy 46.9 90.4) (xy 46.9 87) (xy 41.8 87)
+				(xy 46.9 87) (xy 41.8 87)
 			)
 		)
 		(filled_polygon

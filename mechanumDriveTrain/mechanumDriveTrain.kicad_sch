@@ -6612,7 +6612,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "10K"
 			(at 66.548 93.4719 90)
 			(effects
 				(font
@@ -9141,7 +9141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "10K"
 			(at 133.858 93.4719 90)
 			(effects
 				(font
