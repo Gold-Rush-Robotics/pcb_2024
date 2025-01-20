@@ -5632,18 +5632,7 @@
 			(pintype "passive")
 			(uuid "92acb80a-444f-4ee7-ba63-11dec8513d2e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/XT30U-M.stp"
+		(model "${KIPRJMOD}/packages3D/XT30U-M.stp"
 			(offset
 				(xyz 7.5 0 0)
 			)
@@ -5651,7 +5640,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz 0 0 -180)
 			)
 		)
 	)
@@ -6958,19 +6947,7 @@
 			(pintype "passive")
 			(uuid "a7150734-0a5d-456b-a84a-1946f4eb1873")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/XT30U-M.stp"
+		(model "${KIPRJMOD}/packages3D/XT30U-M.stp"
 			(offset
 				(xyz 7.5 0 0)
 			)
@@ -7340,19 +7317,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "49361523-b6a3-468c-a5ee-57f451818ef5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/BM02B-SRSS-TB.STEP"
+		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1 0)
 			)
@@ -10191,18 +10156,7 @@
 			(pintype "passive")
 			(uuid "485597ef-7da5-4966-97e1-5d708931d9f7")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/XT30U-M.stp"
+		(model "${KIPRJMOD}/packages3D/XT30U-M.stp"
 			(offset
 				(xyz 7.5 0 0)
 			)
@@ -14757,18 +14711,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "d93baa25-5a5a-4176-a58f-a0837d9a52ee")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/BM02B-SRSS-TB.STEP"
+		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1 0)
 			)
@@ -15352,18 +15295,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "aac0d8d2-aed0-4778-8b38-482b5d57adb9")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/BM02B-SRSS-TB.STEP"
+		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1 0)
 			)
@@ -16643,18 +16575,7 @@
 			(pintype "passive")
 			(uuid "d7f92483-cc60-45b2-b274-bd9fdec63493")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/XT30U-M.stp"
+		(model "${KIPRJMOD}/packages3D/XT30U-M.stp"
 			(offset
 				(xyz 7.5 0 0)
 			)
@@ -18506,18 +18427,7 @@
 			(pintype "passive")
 			(uuid "597ef3e8-b91f-4986-8f91-02d94003ca94")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/XT30U-M.stp"
+		(model "${KIPRJMOD}/packages3D/XT30U-M.stp"
 			(offset
 				(xyz 7.5 0 0)
 			)
@@ -20399,19 +20309,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "181006e3-98d0-4dbb-ac68-07f1eb7b7c27")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/BM02B-SRSS-TB.STEP"
+		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1 0)
 			)
@@ -20967,18 +20865,7 @@
 			(pintype "passive")
 			(uuid "1d87ba1e-48cc-49ef-9832-a780e14eea43")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_AMASS.3dshapes/AMASS_XT30U-M_1x02_P5.0mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/XT30U-M.stp"
+		(model "${KIPRJMOD}/packages3D/XT30U-M.stp"
 			(offset
 				(xyz 7.5 0 0)
 			)
@@ -22308,20 +22195,9 @@
 			(roundrect_rratio 0.208333)
 			(uuid "f38790cb-2461-4dbe-998f-94aee73cf9d0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB.STEP"
 			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/BM02B-SRSS-TB.STEP"
-			(offset
-				(xyz 0 1.5 0)
+				(xyz 0 1 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -23167,18 +23043,7 @@
 			(roundrect_rratio 0.208333)
 			(uuid "e5ae952c-6c2d-4edd-a50d-7dfd15432021")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "/home/BigPierogi/Documents/pcb_2024/3Dmodels/BM02B-SRSS-TB.STEP"
+		(model "${KIPRJMOD}/packages3D/BM02B-SRSS-TB.STEP"
 			(offset
 				(xyz 0 1 0)
 			)
