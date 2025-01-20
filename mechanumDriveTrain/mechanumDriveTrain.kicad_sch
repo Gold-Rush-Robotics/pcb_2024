@@ -4225,6 +4225,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 182.88) (xy 100.33 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef1d03f-c259-44fc-9d09-f469fff7f32e")
+	)
+	(wire
+		(pts
 			(xy 177.8 36.83) (xy 184.15 36.83)
 		)
 		(stroke
@@ -4245,7 +4255,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 168.91) (xy 100.33 167.64)
+			(xy 100.33 170.18) (xy 100.33 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4425,7 +4435,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 173.99) (xy 114.3 173.99)
+			(xy 100.33 176.53) (xy 114.3 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4495,7 +4505,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 163.83) (xy 100.33 162.56)
+			(xy 100.33 163.83) (xy 100.33 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 173.99) (xy 100.33 172.72)
+			(xy 100.33 176.53) (xy 100.33 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5065,7 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 168.91) (xy 114.3 168.91)
+			(xy 100.33 170.18) (xy 114.3 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5122,6 +5132,16 @@
 			(type default)
 		)
 		(uuid "ef6b1d49-ea93-4dcb-b62e-acd27c313ed2")
+	)
+	(wire
+		(pts
+			(xy 100.33 182.88) (xy 114.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7cc358f-8679-447a-8b29-ca48560f114d")
 	)
 	(wire
 		(pts
@@ -5211,7 +5231,7 @@
 	)
 	(rectangle
 		(start 95.25 135.89)
-		(end 123.19 179.07)
+		(end 123.19 189.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -6917,7 +6937,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "148ce47d-3431-43db-998a-500d8ffb3b4f")
 		(property "Reference" "#PWR028"
 			(at 229.87 27.94 0)
@@ -6929,7 +6948,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 229.87 19.05 0)
+			(at 229.362 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7200,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 168.91 270)
+		(at 114.3 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7189,7 +7208,7 @@
 		(dnp no)
 		(uuid "260e1ef8-dc14-4dd1-aa7b-abb7e26c1b50")
 		(property "Reference" "TP10"
-			(at 118.3641 168.91 90)
+			(at 118.3641 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7217,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 116.3321 171.45 0)
+			(at 116.3321 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7226,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 114.3 173.99 0)
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7235,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 173.99 0)
+			(at 114.3 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7244,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 168.91 0)
+			(at 114.3 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,6 +8515,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "534c8afa-dad7-46eb-b00f-de2cc2adb881")
+		(property "Reference" "TP12"
+			(at 118.3641 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 116.3321 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 114.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cceb6689-fadf-4d6f-9cb9-4099466e95fe")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 17.78 46.99 0)
 		(unit 1)
@@ -8820,6 +8905,71 @@
 			(project "mechanumDriveTrain"
 				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64b82500-bba5-4ab5-85ea-281b8039241c")
+		(property "Reference" "#PWR034"
+			(at 100.33 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 187.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f411dc0b-cd22-40de-bc01-9689780bcf11")
+		)
+		(instances
+			(project "mechanumDriveTrain"
+				(path "/150d9912-2987-4a4a-be7d-95dc51376246"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9603,7 +9753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 162.56 0)
+		(at 100.33 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9611,7 +9761,7 @@
 		(dnp no)
 		(uuid "87543879-ef19-4a00-b9f0-9fdbe0d2ab4d")
 		(property "Reference" "#PWR026"
-			(at 100.33 168.91 0)
+			(at 100.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9620,7 +9770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 167.64 0)
+			(at 100.33 168.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 162.56 0)
+			(at 100.33 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,7 +9787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 162.56 0)
+			(at 100.33 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,7 +9796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 162.56 0)
+			(at 100.33 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10347,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 167.64 0)
+		(at 100.33 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10205,7 +10355,7 @@
 		(dnp no)
 		(uuid "a4703901-8c9c-4ff0-99ec-c0b420fa6123")
 		(property "Reference" "#PWR032"
-			(at 100.33 173.99 0)
+			(at 100.33 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 172.72 0)
+			(at 100.33 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10222,7 +10372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 167.64 0)
+			(at 100.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10231,7 +10381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 167.64 0)
+			(at 100.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 167.64 0)
+			(at 100.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +11073,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 172.72 0)
+		(at 100.33 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10931,7 +11081,7 @@
 		(dnp no)
 		(uuid "cbc7df93-82a7-4d4c-81bf-b3c976b061dd")
 		(property "Reference" "#PWR033"
-			(at 100.33 179.07 0)
+			(at 100.33 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,7 +11090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 177.8 0)
+			(at 100.33 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10948,7 +11098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 172.72 0)
+			(at 100.33 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,7 +11107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 172.72 0)
+			(at 100.33 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +11116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 172.72 0)
+			(at 100.33 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10988,7 +11138,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 173.99 270)
+		(at 114.3 176.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10996,7 +11146,7 @@
 		(dnp no)
 		(uuid "d594dd21-eb10-4f08-a343-c09dd8c1a605")
 		(property "Reference" "TP11"
-			(at 118.3641 173.99 90)
+			(at 118.3641 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +11155,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 116.3321 176.53 0)
+			(at 116.3321 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +11164,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
-			(at 114.3 179.07 0)
+			(at 114.3 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +11173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 179.07 0)
+			(at 114.3 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11182,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 114.3 173.99 0)
+			(at 114.3 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
