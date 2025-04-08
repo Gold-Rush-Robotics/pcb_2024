@@ -482,7 +482,7 @@
       "plot": "gerbers",
       "pos_files": "secret 3.0 gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "solenoid driver 2.0.step",
       "svg": "",
       "vrml": ""
     },
